@@ -1,0 +1,1807 @@
+{
+  "name": "BOM CHALLENGE! — PNG export mirror",
+  "count": 180,
+  "note": "1x PNG mirror of the modular source pack. Runtime UI assets use transparent backgrounds; full-bleed backgrounds are opaque. Source SVGs remain in /assets, PNG masters for avatars/logo in /assets/characters and /assets/brand.",
+  "assets": [
+    {
+      "path": "backgrounds/bg-game.png",
+      "source": "assets/backgrounds/bg-game.svg",
+      "sourceType": "SVG",
+      "width": 1920,
+      "height": 1080,
+      "sizeBytes": 1431269,
+      "format": "PNG",
+      "transparent": false
+    },
+    {
+      "path": "backgrounds/bg-menu.png",
+      "source": "assets/backgrounds/bg-menu.svg",
+      "sourceType": "SVG",
+      "width": 1920,
+      "height": 1080,
+      "sizeBytes": 1466641,
+      "format": "PNG",
+      "transparent": false
+    },
+    {
+      "path": "backgrounds/overlay-halftone.png",
+      "source": "assets/backgrounds/overlay-halftone.svg",
+      "sourceType": "SVG",
+      "width": 1920,
+      "height": 1080,
+      "sizeBytes": 25102,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "bomb/bomb-case.png",
+      "source": "assets/bomb/bomb-case.svg",
+      "sourceType": "SVG",
+      "width": 820,
+      "height": 620,
+      "sizeBytes": 66129,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "bomb/bomb-defused.png",
+      "source": "assets/bomb/bomb-defused.svg",
+      "sourceType": "SVG",
+      "width": 560,
+      "height": 640,
+      "sizeBytes": 104958,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "bomb/bomb-hero.png",
+      "source": "assets/bomb/bomb-hero.svg",
+      "sourceType": "SVG",
+      "width": 560,
+      "height": 640,
+      "sizeBytes": 127191,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "brand/logo-lockup.png",
+      "source": "assets/exports/brand/logo-lockup.png",
+      "sourceType": "PNG-master",
+      "width": 1680,
+      "height": 800,
+      "sizeBytes": 447590,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "brand/logo-mark.png",
+      "source": "assets/brand/logo-mark.svg",
+      "sourceType": "SVG",
+      "width": 640,
+      "height": 640,
+      "sizeBytes": 132665,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/avatar-bara.png",
+      "source": "assets/exports/characters/avatar-bara.png",
+      "sourceType": "PNG-master",
+      "width": 480,
+      "height": 480,
+      "sizeBytes": 72914,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/avatar-dimas.png",
+      "source": "assets/exports/characters/avatar-dimas.png",
+      "sourceType": "PNG-master",
+      "width": 480,
+      "height": 480,
+      "sizeBytes": 65397,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/avatar-kira.png",
+      "source": "assets/exports/characters/avatar-kira.png",
+      "sourceType": "PNG-master",
+      "width": 480,
+      "height": 480,
+      "sizeBytes": 66618,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/avatar-nara.png",
+      "source": "assets/exports/characters/avatar-nara.png",
+      "sourceType": "PNG-master",
+      "width": 480,
+      "height": 480,
+      "sizeBytes": 89210,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/char-bara.png",
+      "source": "assets/characters/char-bara.svg",
+      "sourceType": "SVG",
+      "width": 600,
+      "height": 760,
+      "sizeBytes": 117396,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/char-dimas.png",
+      "source": "assets/characters/char-dimas.svg",
+      "sourceType": "SVG",
+      "width": 600,
+      "height": 760,
+      "sizeBytes": 110279,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/char-kira.png",
+      "source": "assets/characters/char-kira.svg",
+      "sourceType": "SVG",
+      "width": 600,
+      "height": 760,
+      "sizeBytes": 118843,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "characters/char-nara.png",
+      "source": "assets/characters/char-nara.svg",
+      "sourceType": "SVG",
+      "width": 600,
+      "height": 760,
+      "sizeBytes": 139277,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-confetti-1.png",
+      "source": "assets/fx/fx-confetti-1.svg",
+      "sourceType": "SVG",
+      "width": 64,
+      "height": 36,
+      "sizeBytes": 1523,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-confetti-2.png",
+      "source": "assets/fx/fx-confetti-2.svg",
+      "sourceType": "SVG",
+      "width": 64,
+      "height": 36,
+      "sizeBytes": 535,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-confetti-3.png",
+      "source": "assets/fx/fx-confetti-3.svg",
+      "sourceType": "SVG",
+      "width": 64,
+      "height": 36,
+      "sizeBytes": 1605,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-electric.png",
+      "source": "assets/fx/fx-electric.svg",
+      "sourceType": "SVG",
+      "width": 520,
+      "height": 180,
+      "sizeBytes": 53894,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-explosion.png",
+      "source": "assets/fx/fx-explosion.svg",
+      "sourceType": "SVG",
+      "width": 1400,
+      "height": 1400,
+      "sizeBytes": 664127,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-flame.png",
+      "source": "assets/fx/fx-flame.svg",
+      "sourceType": "SVG",
+      "width": 280,
+      "height": 360,
+      "sizeBytes": 29305,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-flash-rays.png",
+      "source": "assets/fx/fx-flash-rays.svg",
+      "sourceType": "SVG",
+      "width": 1400,
+      "height": 1400,
+      "sizeBytes": 445818,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-glass-crack.png",
+      "source": "assets/fx/fx-glass-crack.svg",
+      "sourceType": "SVG",
+      "width": 1920,
+      "height": 1080,
+      "sizeBytes": 81990,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-ice.png",
+      "source": "assets/fx/fx-ice.svg",
+      "sourceType": "SVG",
+      "width": 1700,
+      "height": 760,
+      "sizeBytes": 186866,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-shockwave.png",
+      "source": "assets/fx/fx-shockwave.svg",
+      "sourceType": "SVG",
+      "width": 600,
+      "height": 600,
+      "sizeBytes": 38271,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-smoke-dark.png",
+      "source": "assets/fx/fx-smoke-dark.svg",
+      "sourceType": "SVG",
+      "width": 512,
+      "height": 512,
+      "sizeBytes": 173170,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-smoke.png",
+      "source": "assets/fx/fx-smoke.svg",
+      "sourceType": "SVG",
+      "width": 512,
+      "height": 512,
+      "sizeBytes": 184060,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-spark.png",
+      "source": "assets/fx/fx-spark.svg",
+      "sourceType": "SVG",
+      "width": 128,
+      "height": 128,
+      "sizeBytes": 16095,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "fx/fx-speedlines.png",
+      "source": "assets/fx/fx-speedlines.svg",
+      "sourceType": "SVG",
+      "width": 1600,
+      "height": 900,
+      "sizeBytes": 8542,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-alert.png",
+      "source": "assets/icons/icon-alert.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1609,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-arrow-right.png",
+      "source": "assets/icons/icon-arrow-right.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 735,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-arrow-up.png",
+      "source": "assets/icons/icon-arrow-up.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 828,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-back.png",
+      "source": "assets/icons/icon-back.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 762,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-bolt.png",
+      "source": "assets/icons/icon-bolt.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 890,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-bomb.png",
+      "source": "assets/icons/icon-bomb.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1981,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-check.png",
+      "source": "assets/icons/icon-check.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1236,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-clockw.png",
+      "source": "assets/icons/icon-clockw.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1964,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-close.png",
+      "source": "assets/icons/icon-close.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 840,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-cross.png",
+      "source": "assets/icons/icon-cross.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 876,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-crown.png",
+      "source": "assets/icons/icon-crown.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1835,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-csv.png",
+      "source": "assets/icons/icon-csv.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 903,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-eye.png",
+      "source": "assets/icons/icon-eye.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2540,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-flag.png",
+      "source": "assets/icons/icon-flag.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 951,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-glitch.png",
+      "source": "assets/icons/icon-glitch.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 997,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-hand-drag.png",
+      "source": "assets/icons/icon-hand-drag.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2297,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-hand-hold.png",
+      "source": "assets/icons/icon-hand-hold.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2234,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-hand-multi.png",
+      "source": "assets/icons/icon-hand-multi.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1473,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-hand-swipe.png",
+      "source": "assets/icons/icon-hand-swipe.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2644,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-hand-tap.png",
+      "source": "assets/icons/icon-hand-tap.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2480,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-heart.png",
+      "source": "assets/icons/icon-heart.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2443,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-help.png",
+      "source": "assets/icons/icon-help.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2490,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-home.png",
+      "source": "assets/icons/icon-home.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1241,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-info.png",
+      "source": "assets/icons/icon-info.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1921,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-key.png",
+      "source": "assets/icons/icon-key.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1390,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-leaderboard.png",
+      "source": "assets/icons/icon-leaderboard.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 740,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-lock.png",
+      "source": "assets/icons/icon-lock.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1498,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-map.png",
+      "source": "assets/icons/icon-map.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1064,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-megaphone.png",
+      "source": "assets/icons/icon-megaphone.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2059,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-mic.png",
+      "source": "assets/icons/icon-mic.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1935,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-minus.png",
+      "source": "assets/icons/icon-minus.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 400,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-music.png",
+      "source": "assets/icons/icon-music.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1094,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-mute.png",
+      "source": "assets/icons/icon-mute.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1660,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-pause.png",
+      "source": "assets/icons/icon-pause.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 571,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-play.png",
+      "source": "assets/icons/icon-play.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 624,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-plus.png",
+      "source": "assets/icons/icon-plus.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 571,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-replay.png",
+      "source": "assets/icons/icon-replay.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1968,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-reset.png",
+      "source": "assets/icons/icon-reset.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2254,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-settings.png",
+      "source": "assets/icons/icon-settings.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1090,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-shield.png",
+      "source": "assets/icons/icon-shield.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2291,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-smoke.png",
+      "source": "assets/icons/icon-smoke.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1645,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-snowflake.png",
+      "source": "assets/icons/icon-snowflake.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 3063,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-sound.png",
+      "source": "assets/icons/icon-sound.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1966,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-spark.png",
+      "source": "assets/icons/icon-spark.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1446,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-star.png",
+      "source": "assets/icons/icon-star.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1603,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-stopwatch.png",
+      "source": "assets/icons/icon-stopwatch.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2045,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-team.png",
+      "source": "assets/icons/icon-team.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1762,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-timer.png",
+      "source": "assets/icons/icon-timer.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1926,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-trophy.png",
+      "source": "assets/icons/icon-trophy.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1717,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-wifi.png",
+      "source": "assets/icons/icon-wifi.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 2085,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "icons/icon-wire.png",
+      "source": "assets/icons/icon-wire.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1827,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/button-blue.png",
+      "source": "assets/puzzles/button-blue.svg",
+      "sourceType": "SVG",
+      "width": 460,
+      "height": 340,
+      "sizeBytes": 38909,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/button-green.png",
+      "source": "assets/puzzles/button-green.svg",
+      "sourceType": "SVG",
+      "width": 460,
+      "height": 340,
+      "sizeBytes": 40019,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/button-red.png",
+      "source": "assets/puzzles/button-red.svg",
+      "sourceType": "SVG",
+      "width": 460,
+      "height": 340,
+      "sizeBytes": 38607,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/glitch-popup.png",
+      "source": "assets/puzzles/glitch-popup.svg",
+      "sourceType": "SVG",
+      "width": 780,
+      "height": 300,
+      "sizeBytes": 8322,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/lever-handle.png",
+      "source": "assets/puzzles/lever-handle.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 170,
+      "sizeBytes": 3745,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/lever-track.png",
+      "source": "assets/puzzles/lever-track.svg",
+      "sourceType": "SVG",
+      "width": 420,
+      "height": 110,
+      "sizeBytes": 4603,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/puzzle-scanner.png",
+      "source": "assets/puzzles/puzzle-scanner.svg",
+      "sourceType": "SVG",
+      "width": 300,
+      "height": 300,
+      "sizeBytes": 54245,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/scissors.png",
+      "source": "assets/puzzles/scissors.svg",
+      "sourceType": "SVG",
+      "width": 190,
+      "height": 160,
+      "sizeBytes": 24421,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-circle.png",
+      "source": "assets/puzzles/symbol-circle.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1097,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-diamond.png",
+      "source": "assets/puzzles/symbol-diamond.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 866,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-hex.png",
+      "source": "assets/puzzles/symbol-hex.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 859,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-plus.png",
+      "source": "assets/puzzles/symbol-plus.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 336,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-square.png",
+      "source": "assets/puzzles/symbol-square.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 504,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-star.png",
+      "source": "assets/puzzles/symbol-star.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1495,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-triangle.png",
+      "source": "assets/puzzles/symbol-triangle.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 838,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/symbol-wave.png",
+      "source": "assets/puzzles/symbol-wave.svg",
+      "sourceType": "SVG",
+      "width": 96,
+      "height": 96,
+      "sizeBytes": 1846,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/vu-meter.png",
+      "source": "assets/puzzles/vu-meter.svg",
+      "sourceType": "SVG",
+      "width": 520,
+      "height": 320,
+      "sizeBytes": 23269,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/wire-blue.png",
+      "source": "assets/puzzles/wire-blue.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 540,
+      "sizeBytes": 14052,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/wire-green.png",
+      "source": "assets/puzzles/wire-green.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 540,
+      "sizeBytes": 14515,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/wire-red.png",
+      "source": "assets/puzzles/wire-red.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 540,
+      "sizeBytes": 13781,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/wire-white.png",
+      "source": "assets/puzzles/wire-white.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 540,
+      "sizeBytes": 14058,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "puzzles/wire-yellow.png",
+      "source": "assets/puzzles/wire-yellow.svg",
+      "sourceType": "SVG",
+      "width": 110,
+      "height": 540,
+      "sizeBytes": 13980,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-blue-disabled.png",
+      "source": "assets/ui/buttons/btn-blue-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13066,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-blue-hover.png",
+      "source": "assets/ui/buttons/btn-blue-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13060,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-blue-normal.png",
+      "source": "assets/ui/buttons/btn-blue-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6669,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-blue-pressed.png",
+      "source": "assets/ui/buttons/btn-blue-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6848,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-danger-disabled.png",
+      "source": "assets/ui/buttons/btn-danger-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13066,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-danger-hover.png",
+      "source": "assets/ui/buttons/btn-danger-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 12920,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-danger-normal.png",
+      "source": "assets/ui/buttons/btn-danger-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6662,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-danger-pressed.png",
+      "source": "assets/ui/buttons/btn-danger-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6731,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-ghost-disabled.png",
+      "source": "assets/ui/buttons/btn-ghost-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 12950,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-ghost-hover.png",
+      "source": "assets/ui/buttons/btn-ghost-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 11508,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-ghost-normal.png",
+      "source": "assets/ui/buttons/btn-ghost-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 7000,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-ghost-pressed.png",
+      "source": "assets/ui/buttons/btn-ghost-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 7064,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-primary-disabled.png",
+      "source": "assets/ui/buttons/btn-primary-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13066,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-primary-hover.png",
+      "source": "assets/ui/buttons/btn-primary-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13336,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-primary-normal.png",
+      "source": "assets/ui/buttons/btn-primary-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6892,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-primary-pressed.png",
+      "source": "assets/ui/buttons/btn-primary-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6729,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-purple-disabled.png",
+      "source": "assets/ui/buttons/btn-purple-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13066,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-purple-hover.png",
+      "source": "assets/ui/buttons/btn-purple-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13951,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-purple-normal.png",
+      "source": "assets/ui/buttons/btn-purple-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6888,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-purple-pressed.png",
+      "source": "assets/ui/buttons/btn-purple-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 7047,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-disabled.png",
+      "source": "assets/ui/buttons/btn-round-blue-disabled.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18262,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-hover.png",
+      "source": "assets/ui/buttons/btn-round-blue-hover.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 34011,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-normal.png",
+      "source": "assets/ui/buttons/btn-round-blue-normal.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18475,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-pressed.png",
+      "source": "assets/ui/buttons/btn-round-blue-pressed.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 17818,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-disabled.png",
+      "source": "assets/ui/buttons/btn-round-danger-disabled.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18262,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-hover.png",
+      "source": "assets/ui/buttons/btn-round-danger-hover.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 34400,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-normal.png",
+      "source": "assets/ui/buttons/btn-round-danger-normal.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18947,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-pressed.png",
+      "source": "assets/ui/buttons/btn-round-danger-pressed.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18412,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-disabled.png",
+      "source": "assets/ui/buttons/btn-round-ghost-disabled.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18231,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-hover.png",
+      "source": "assets/ui/buttons/btn-round-ghost-hover.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 30578,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-normal.png",
+      "source": "assets/ui/buttons/btn-round-ghost-normal.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18101,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-pressed.png",
+      "source": "assets/ui/buttons/btn-round-ghost-pressed.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 17414,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-disabled.png",
+      "source": "assets/ui/buttons/btn-round-primary-disabled.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18262,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-hover.png",
+      "source": "assets/ui/buttons/btn-round-primary-hover.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 33504,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-normal.png",
+      "source": "assets/ui/buttons/btn-round-primary-normal.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 18160,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-pressed.png",
+      "source": "assets/ui/buttons/btn-round-primary-pressed.svg",
+      "sourceType": "SVG",
+      "width": 144,
+      "height": 144,
+      "sizeBytes": 17435,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-success-disabled.png",
+      "source": "assets/ui/buttons/btn-success-disabled.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 12950,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-success-hover.png",
+      "source": "assets/ui/buttons/btn-success-hover.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 13415,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-success-normal.png",
+      "source": "assets/ui/buttons/btn-success-normal.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6922,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/btn-success-pressed.png",
+      "source": "assets/ui/buttons/btn-success-pressed.svg",
+      "sourceType": "SVG",
+      "width": 480,
+      "height": 144,
+      "sizeBytes": 6978,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/keypad-hover.png",
+      "source": "assets/ui/buttons/keypad-hover.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 120,
+      "sizeBytes": 7669,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/keypad-normal.png",
+      "source": "assets/ui/buttons/keypad-normal.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 120,
+      "sizeBytes": 3479,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/buttons/keypad-pressed.png",
+      "source": "assets/ui/buttons/keypad-pressed.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 120,
+      "sizeBytes": 3467,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/caution-tape.png",
+      "source": "assets/ui/caution-tape.svg",
+      "sourceType": "SVG",
+      "width": 512,
+      "height": 64,
+      "sizeBytes": 2165,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/frames/corner-blue.png",
+      "source": "assets/ui/frames/corner-blue.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 621,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/frames/corner-yellow.png",
+      "source": "assets/ui/frames/corner-yellow.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 620,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/frames/frame-module-solved.png",
+      "source": "assets/ui/frames/frame-module-solved.svg",
+      "sourceType": "SVG",
+      "width": 560,
+      "height": 620,
+      "sizeBytes": 30500,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/frames/frame-module.png",
+      "source": "assets/ui/frames/frame-module.svg",
+      "sourceType": "SVG",
+      "width": 560,
+      "height": 620,
+      "sizeBytes": 30165,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/gestures/gesture-drag.png",
+      "source": "assets/ui/gestures/gesture-drag.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 180,
+      "sizeBytes": 5767,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/gestures/gesture-hold.png",
+      "source": "assets/ui/gestures/gesture-hold.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 180,
+      "sizeBytes": 6715,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/gestures/gesture-multi.png",
+      "source": "assets/ui/gestures/gesture-multi.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 180,
+      "sizeBytes": 6024,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/gestures/gesture-swipe.png",
+      "source": "assets/ui/gestures/gesture-swipe.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 180,
+      "sizeBytes": 6955,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/gestures/gesture-tap.png",
+      "source": "assets/ui/gestures/gesture-tap.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 180,
+      "sizeBytes": 6383,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/cipher-ribbon.png",
+      "source": "assets/ui/hud/cipher-ribbon.svg",
+      "sourceType": "SVG",
+      "width": 1600,
+      "height": 120,
+      "sizeBytes": 45929,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/hazard-strip.png",
+      "source": "assets/ui/hud/hazard-strip.svg",
+      "sourceType": "SVG",
+      "width": 256,
+      "height": 40,
+      "sizeBytes": 710,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/leader-row.png",
+      "source": "assets/ui/hud/leader-row.svg",
+      "sourceType": "SVG",
+      "width": 520,
+      "height": 72,
+      "sizeBytes": 4385,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/player-chip.png",
+      "source": "assets/ui/hud/player-chip.svg",
+      "sourceType": "SVG",
+      "width": 300,
+      "height": 88,
+      "sizeBytes": 4962,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/progress-fill-green.png",
+      "source": "assets/ui/hud/progress-fill-green.svg",
+      "sourceType": "SVG",
+      "width": 900,
+      "height": 44,
+      "sizeBytes": 1388,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/progress-fill-red.png",
+      "source": "assets/ui/hud/progress-fill-red.svg",
+      "sourceType": "SVG",
+      "width": 900,
+      "height": 44,
+      "sizeBytes": 1334,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/progress-fill-yellow.png",
+      "source": "assets/ui/hud/progress-fill-yellow.svg",
+      "sourceType": "SVG",
+      "width": 900,
+      "height": 44,
+      "sizeBytes": 1323,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/progress-track.png",
+      "source": "assets/ui/hud/progress-track.svg",
+      "sourceType": "SVG",
+      "width": 900,
+      "height": 44,
+      "sizeBytes": 2926,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/round-chip.png",
+      "source": "assets/ui/hud/round-chip.svg",
+      "sourceType": "SVG",
+      "width": 300,
+      "height": 68,
+      "sizeBytes": 4072,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/sabotage-banner.png",
+      "source": "assets/ui/hud/sabotage-banner.svg",
+      "sourceType": "SVG",
+      "width": 900,
+      "height": 160,
+      "sizeBytes": 35521,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/score-plate.png",
+      "source": "assets/ui/hud/score-plate.svg",
+      "sourceType": "SVG",
+      "width": 360,
+      "height": 112,
+      "sizeBytes": 8348,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/strike-off.png",
+      "source": "assets/ui/hud/strike-off.svg",
+      "sourceType": "SVG",
+      "width": 72,
+      "height": 72,
+      "sizeBytes": 3764,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/strike-on.png",
+      "source": "assets/ui/hud/strike-on.svg",
+      "sourceType": "SVG",
+      "width": 72,
+      "height": 72,
+      "sizeBytes": 4509,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/tag-blue.png",
+      "source": "assets/ui/hud/tag-blue.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 54,
+      "sizeBytes": 4692,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/tag-red.png",
+      "source": "assets/ui/hud/tag-red.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 54,
+      "sizeBytes": 4514,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/timer-plate.png",
+      "source": "assets/ui/hud/timer-plate.svg",
+      "sourceType": "SVG",
+      "width": 560,
+      "height": 190,
+      "sizeBytes": 23153,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/touch-ring-blue.png",
+      "source": "assets/ui/hud/touch-ring-blue.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 4830,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/touch-ring-green.png",
+      "source": "assets/ui/hud/touch-ring-green.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 5045,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/touch-ring-purple.png",
+      "source": "assets/ui/hud/touch-ring-purple.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 5121,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/touch-ring-red.png",
+      "source": "assets/ui/hud/touch-ring-red.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 4775,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/hud/touch-ring-yellow.png",
+      "source": "assets/ui/hud/touch-ring-yellow.svg",
+      "sourceType": "SVG",
+      "width": 160,
+      "height": 160,
+      "sizeBytes": 4754,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/panels/panel-dark.png",
+      "source": "assets/ui/panels/panel-dark.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 240,
+      "sizeBytes": 6954,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/panels/panel-inset.png",
+      "source": "assets/ui/panels/panel-inset.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 240,
+      "sizeBytes": 6895,
+      "format": "PNG",
+      "transparent": true
+    },
+    {
+      "path": "ui/panels/panel-metal.png",
+      "source": "assets/ui/panels/panel-metal.svg",
+      "sourceType": "SVG",
+      "width": 240,
+      "height": 240,
+      "sizeBytes": 7005,
+      "format": "PNG",
+      "transparent": true
+    }
+  ]
+}

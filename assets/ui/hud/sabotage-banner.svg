@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" fill="none">
+<defs><linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B32033" stop-opacity="1"/><stop offset="0.3" stop-color="#FF414D" stop-opacity="1"/><stop offset="0.7" stop-color="#D62A3C" stop-opacity="1"/><stop offset="1" stop-color="#8E1426" stop-opacity="1"/></linearGradient><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5D6983" stop-opacity="1"/><stop offset="1" stop-color="#222B41" stop-opacity="1"/></linearGradient><filter id="rg" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 1.0000 0.2549 0.3020 0 0 0 0 1.0000 0.2549 0.3020 0 0 0 0 1.0000 0.2549 0.3020 0 0 0 .85 0" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter><pattern id="haz" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="30" height="30" fill="#090D18"/><rect width="15" height="30" fill="#FFC928"/></pattern><filter id="drop" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#05070D" flood-opacity="0.6"/>
+  </filter></defs>
+
+  <g filter="url(#drop)">
+    <path d="M36 24 H864 L886 80 L864 136 H36 L14 80 Z" fill="#080B14" opacity=".7" transform="translate(0 8)"/>
+    <path d="M34 16 H866 L888 80 L866 144 H34 L12 80 Z" fill="url(#plate)" stroke="#090D18" stroke-width="8"/>
+    <path d="M56 38 H844 L858 80 L844 122 H56 L42 80 Z" fill="url(#red)" stroke="#2A0308" stroke-width="4"/>
+    <path d="M66 52 H834" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="4" stroke-linecap="round"/>
+    <rect x="26" y="40" width="42" height="80" rx="9" fill="url(#haz)"/>
+    <rect x="832" y="40" width="42" height="80" rx="9" fill="url(#haz)"/>
+    <g filter="url(#rg)"><circle cx="92" cy="80" r="26" fill="#FFC928" stroke="#090D18" stroke-width="5"/><path d="M92 58 V102 M70 80 H114" stroke="#090D18" stroke-width="7" stroke-linecap="round"/></g>
+    <g transform="translate(808 54)"><path d="M24 0 L4 26 H20 L14 52 L42 18 H25 L34 0 Z" fill="#FFC928" stroke="#090D18" stroke-width="4"/></g>
+  </g>
+</svg>

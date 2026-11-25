@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+<defs><radialGradient id="base" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#513049" stop-opacity="1"/><stop offset="1" stop-color="#170E1E" stop-opacity="1"/></radialGradient><radialGradient id="hot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFC928" stop-opacity="1"/><stop offset="0.55" stop-color="#FF414D" stop-opacity="1"/><stop offset="1" stop-color="#FF414D" stop-opacity="0"/></radialGradient><filter id="drop" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#05070D" flood-opacity="0.5"/>
+  </filter></defs>
+
+  <g filter="url(#drop)">
+    <path d="M36 4 L64 20 V52 L36 68 L8 52 V20 Z" fill="url(#base)" stroke="#090D18" stroke-width="5"/>
+    <circle cx="36" cy="38" r="22" fill="url(#hot)" opacity=".55"/>
+    <path d="M24 30 C18 34 18 42 24 46 C30 50 42 50 48 46 C54 42 54 34 48 30 Z" fill="#16101A" stroke="#090D18" stroke-width="4"/>
+    <path d="M36 28 C38 22 43 18 48 17" stroke="#FFC928" stroke-width="4" stroke-linecap="round"/>
+    <path d="M26 36 l6 6 -6 6 M46 36 l-6 6 6 6" stroke="#F6EAD6" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

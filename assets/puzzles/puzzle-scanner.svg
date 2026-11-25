@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none">
+<defs><linearGradient id="pad" x1="0.2" y1="0.1" x2="0.8" y2="0.9"><stop offset="0" stop-color="#4B5874" stop-opacity="1"/><stop offset="0.35" stop-color="#242E45" stop-opacity="1"/><stop offset="1" stop-color="#101625" stop-opacity="1"/></linearGradient>
+    <filter id="fingerGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.2196 0.8510 0.5412 0 0 0 0 0.2196 0.8510 0.5412 0 0 0 0 0.2196 0.8510 0.5412 0 0 0 .85 0" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter></defs>
+
+  <circle cx="150" cy="150" r="138" fill="#05080F" opacity=".35"/>
+  <circle cx="150" cy="150" r="132" fill="url(#pad)" stroke="#090D18" stroke-width="9"/>
+  <circle cx="150" cy="150" r="112" fill="#0A1522" stroke="#38D98A" stroke-opacity=".25" stroke-width="3"/>
+  <g stroke="#090D18" stroke-width="5" opacity=".8">
+    <path d="M150 28 V48 M150 252 V272 M28 150 H48 M252 150 H272 M64 64 L78 78 M236 64 L222 78 M64 236 L78 222 M236 236 L222 222"/>
+  </g>
+  <g stroke="#5FE6FF" stroke-width="2" stroke-opacity=".3"><circle cx="150" cy="150" r="96" stroke-dasharray="2 12"/><circle cx="150" cy="150" r="72" stroke-dasharray="2 10"/></g>
+  <g fill="none" stroke="#38D98A" stroke-width="7" stroke-linecap="round" filter="url(#fingerGlow)">
+    <path d="M122 206 C108 184 112 168 124 150 C136 132 134 114 122 104 C112 96 96 102 94 116 C92 136 112 146 124 132"/>
+    <path d="M138 210 C128 190 134 174 146 158 C158 142 160 120 150 108 C142 98 126 100 122 114"/>
+    <path d="M154 210 C150 192 158 176 170 162 C180 150 184 132 180 120"/>
+    <path d="M170 204 C174 184 184 170 194 158"/>
+    <path d="M108 156 C118 174 130 180 144 178"/>
+  </g>
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#38D98A" stroke-width="2" stroke-dasharray="3 14" opacity=".5"/>
+  <circle cx="246" cy="54" r="9" fill="#38D98A" filter="url(#fingerGlow)"/>
+  <circle cx="150" cy="150" r="56" fill="#38D98A" opacity=".04"/>
+</svg>

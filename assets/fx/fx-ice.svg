@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="760" viewBox="0 0 1700 760" fill="none">
+<defs><linearGradient id="ice" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9CE7FF" stop-opacity="0.55"/><stop offset="0.45" stop-color="#4CA6D8" stop-opacity="0.18"/><stop offset="1" stop-color="#8FD8FF" stop-opacity="0.42"/></linearGradient>
+  <pattern id="crystals" width="180" height="180" patternUnits="userSpaceOnUse"><path d="M0 90 L90 0 L180 90 L90 180 Z" fill="none" stroke="#DFF8FF" stroke-opacity=".18" stroke-width="2"/></pattern></defs>
+
+<rect x="0" y="0" width="1700" height="760" fill="url(#ice)" opacity=".7"/>
+<rect x="0" y="0" width="1700" height="760" fill="url(#crystals)" opacity=".5"/>
+<g stroke="#DFF7FF" stroke-opacity=".45" stroke-width="3" fill="none">
+  <path d="M60 90 L260 240 L240 460 L90 620 M260 240 L520 180 L700 360 L620 600 L420 700 M700 360 L980 220 L1180 380 L1300 620 M1180 380 L1460 260 L1640 420 M1300 620 L1560 700"/>
+  <path d="M520 180 L480 40 M980 220 L1010 60 M420 700 L360 740 M1180 380 L1200 740"/>
+  <path d="M260 240 L300 440 L500 380 M700 360 L620 540 L880 520 M1300 620 L1240 460"/>
+</g>
+<g fill="#FFFFFF" opacity=".12"><path d="M100 100 L180 130 L120 220 Z"/><path d="M1480 100 L1600 160 L1500 240 Z"/><path d="M800 620 L900 700 L780 740 Z"/></g>
+<rect x="0" y="0" width="1700" height="760" fill="none" stroke="#AEEBFF" stroke-width="18" stroke-opacity=".25"/>
+</svg>

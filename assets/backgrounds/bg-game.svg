@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<defs><linearGradient id="base" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#0E1930" stop-opacity="1"/><stop offset="0.55" stop-color="#0C1728" stop-opacity="1"/><stop offset="1" stop-color="#080F1E" stop-opacity="1"/></linearGradient><radialGradient id="warm" cx="0.25" cy="0.32" r="0.58"><stop offset="0" stop-color="#FFC93C" stop-opacity="0.07"/><stop offset="0.5" stop-color="#FFC93C" stop-opacity="0.03"/><stop offset="1" stop-color="#FFC93C" stop-opacity="0"/></radialGradient><radialGradient id="cool" cx="0.82" cy="0.48" r="0.55"><stop offset="0" stop-color="#4C9BFF" stop-opacity="0.055"/><stop offset="1" stop-color="#4C9BFF" stop-opacity="0"/></radialGradient><radialGradient id="vignette" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#02040A" stop-opacity="0"/><stop offset="0.6" stop-color="#02040A" stop-opacity="0.22"/><stop offset="1" stop-color="#02040A" stop-opacity="0.8"/></radialGradient><pattern id="halftoneY" width="24" height="24" patternUnits="userSpaceOnUse">
+<circle cx="12" cy="12" r="2.2" fill="#FFC93C" fill-opacity="0.2"/></pattern><pattern id="halftoneC" width="18" height="18" patternUnits="userSpaceOnUse">
+<circle cx="9" cy="9" r="2.2" fill="#FFF4DF" fill-opacity="0.09"/></pattern><pattern id="halftoneB" width="30" height="30" patternUnits="userSpaceOnUse">
+<circle cx="15" cy="15" r="2.2" fill="#4C9BFF" fill-opacity="0.13"/></pattern><radialGradient id="fadeTL" cx=".24" cy=".28" r=".6"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".55" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+     <mask id="dotsTL"><rect width="1920" height="1080" fill="url(#fadeTL)"/></mask>
+     <radialGradient id="fadeR" cx=".86" cy=".45" r=".5"><stop offset="0" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+     <mask id="dotsR"><rect width="1920" height="1080" fill="url(#fadeR)"/></mask>
+     <radialGradient id="fadeB" cx=".5" cy="1" r=".55"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+     <mask id="dotsB"><rect width="1920" height="1080" fill="url(#fadeB)"/></mask>
+     <radialGradient id="fadeC" cx=".5" cy=".55" r=".42"><stop offset="0" stop-color="#fff" stop-opacity=".4"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+     <mask id="dotsC"><rect width="1920" height="1080" fill="url(#fadeC)"/></mask></defs>
+
+  <rect width="1920" height="1080" fill="url(#base)"/>
+  <rect width="1920" height="1080" fill="url(#warm)"/>
+  <rect width="1920" height="1080" fill="url(#cool)"/>
+
+  
+    <rect x="0" y="0" width="1920" height="190" fill="#070D18" opacity=".55"/>
+    <rect x="0" y="900" width="1920" height="180" fill="#070D18" opacity=".55"/>
+    <rect width="1920" height="1080" fill="url(#halftoneC)" opacity=".8" mask="url(#dotsB)"/>
+    <rect width="1920" height="1080" fill="url(#halftoneY)" opacity=".55" mask="url(#dotsC)"/>
+    <g opacity=".55">
+      <path d="M-60 300 L250 80" stroke="#FFF4DF" stroke-width="2" stroke-opacity=".06"/>
+      <path d="M-60 380 L330 80" stroke="#FFF4DF" stroke-width="2" stroke-opacity=".05"/>
+      <path d="M1650 1000 L2010 760" stroke="#FFF4DF" stroke-width="2" stroke-opacity=".06"/>
+      <path d="M1740 1000 L2010 840" stroke="#FFF4DF" stroke-width="2" stroke-opacity=".05"/>
+      <path d="M120 940 C420 760 660 900 930 760" stroke="#FFC93C" stroke-width="10" stroke-linecap="round" stroke-opacity=".035" fill="none"/>
+      <path d="M990 320 C1230 180 1480 340 1810 190" stroke="#4C9BFF" stroke-width="10" stroke-linecap="round" stroke-opacity=".04" fill="none"/>
+    </g>
+  
+
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+
+  <!-- comic page frame: thick ink gutter + chalk corner marks -->
+  <rect x="0" y="0" width="1920" height="1080" fill="none" stroke="#05080F" stroke-width="26"/>
+  <rect x="17" y="17" width="1886" height="1046" fill="none" stroke="#FFF4DF" stroke-width="2" stroke-opacity=".12"/>
+  
+    <path d="M36 70 V36 H70" stroke="#FFC93C" stroke-width="4" stroke-opacity=".55" fill="none"/>
+    <path d="M44 86 V44 H86" stroke="#05080F" stroke-width="9" fill="none"/>
+  
+    <path d="M1884 70 V36 H1850" stroke="#FFC93C" stroke-width="4" stroke-opacity=".55" fill="none"/>
+    <path d="M1876 86 V44 H1834" stroke="#05080F" stroke-width="9" fill="none"/>
+  
+    <path d="M36 1010 V1044 H70" stroke="#FFC93C" stroke-width="4" stroke-opacity=".55" fill="none"/>
+    <path d="M44 994 V1036 H86" stroke="#05080F" stroke-width="9" fill="none"/>
+  
+    <path d="M1884 1010 V1044 H1850" stroke="#FFC93C" stroke-width="4" stroke-opacity=".55" fill="none"/>
+    <path d="M1876 994 V1036 H1834" stroke="#05080F" stroke-width="9" fill="none"/>
+  <rect x="0" y="0" width="1920" height="4" fill="#FFC93C" opacity=".65"/>
+</svg>

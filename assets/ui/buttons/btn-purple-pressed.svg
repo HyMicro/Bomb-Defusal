@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="144" viewBox="0 0 480 144" fill="none">
+<defs><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3A9FF" stop-opacity="1"/><stop offset="0.18" stop-color="#B55DDC" stop-opacity="1"/><stop offset="0.68" stop-color="#B55DDC" stop-opacity="1"/><stop offset="1" stop-color="#6F2C99" stop-opacity="1"/></linearGradient><linearGradient id="lip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F2C99" stop-opacity="1"/><stop offset="1" stop-color="#070A12" stop-opacity="1"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/><stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.12"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.3"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><filter id="drop" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#05070D" flood-opacity="0.65"/>
+  </filter><filter id="hoverGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.7098 0.3647 0.8627 0 0 0 0 0.7098 0.3647 0.8627 0 0 0 0 0.7098 0.3647 0.8627 0 0 0 .85 0" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter><clipPath id="clip"><rect x="10" y="8" width="460" height="118" rx="24"/></clipPath><pattern id="hatch" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="22" height="22" fill="#6E7891"/><rect width="11" height="22" fill="#8B96B1"/></pattern></defs>
+
+  <ellipse cx="240" cy="130" rx="201.6" ry="18" fill="#05070D" opacity=".55"/>
+  <g filter="url(#drop)">
+    
+    <g transform="translate(0 8)">
+      <rect x="10" y="20" width="460" height="112" rx="25" fill="url(#lip)" stroke="#090D18" stroke-width="6"/>
+      <rect x="10" y="8" width="460" height="112" rx="25" fill="url(#base)" stroke="#090D18" stroke-width="6"/>
+      <rect x="18" y="15" width="444" height="44" rx="17" fill="url(#glass)" opacity="0.7"/>
+      <path d="M40 29 L404 29" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.38"/>
+      <path d="M50 98 L430 98" stroke="#090D18" stroke-width="4" stroke-linecap="round" opacity=".22"/>
+      <rect x="24" y="20" width="432" height="90" rx="20" fill="#090D18" opacity=".18"/>
+      <circle cx="38" cy="110" r="4" fill="#090D18" opacity=".35"/><circle cx="442" cy="110" r="4" fill="#090D18" opacity=".35"/>
+      
+      
+      <rect x="10" y="8" width="460" height="112" rx="25" fill="none" stroke="#00000055" stroke-width="2"/>
+      <rect x="10" y="8" width="460" height="112" rx="25" fill="none" stroke="#090D18" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

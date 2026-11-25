@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../assets/fonts/fonts.css">
+<style>
+  html, body { margin: 0; background: transparent; }
+  .avatar {
+    width: 480px; height: 480px; border-radius: 50%; overflow: hidden; position: relative;
+    background: transparent;
+  }
+  .avatar img {
+    position: absolute; width: 600px; height: 760px; left: -60px; top: -80px;
+    object-fit: contain;
+  }
+  .stack { display: flex; gap: 20px; }
+</style>
+</head>
+<body>
+  <div class="stack">
+    <div class="avatar" id="av-bara"><img src="../../assets/characters/char-bara.svg"></div>
+    <div class="avatar" id="av-nara"><img src="../../assets/characters/char-nara.svg"></div>
+    <div class="avatar" id="av-dimas"><img src="../../assets/characters/char-dimas.svg"></div>
+    <div class="avatar" id="av-kira"><img src="../../assets/characters/char-kira.svg"></div>
+  </div>
+  <script>
+    window.__READY = false;
+    Promise.all([...document.querySelectorAll('img')].map(img => img.decode().catch(()=>{}))).then(() => {
+      setTimeout(() => { window.__READY = true; }, 150);
+    });
+  </script>
+</body>
+</html>

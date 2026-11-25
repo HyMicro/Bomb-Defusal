@@ -1,0 +1,2048 @@
+{
+  "name": "BOMB DEFUSAL: CHAOS EDITION — UI & Art Asset Pack",
+  "version": "2.0.0",
+  "generated": "2026-11-24T07:01:58.219Z",
+  "palette": {
+    "red": "#FF414D",
+    "yellow": "#FFC928",
+    "blue": "#2B8BFF",
+    "purple": "#B55DDC",
+    "green": "#38D98A",
+    "darkNavy": "#141A2E",
+    "ink": "#090D18",
+    "cream": "#F6EAD6",
+    "orange": "#FFB73C"
+  },
+  "fonts": {
+    "display": "Bangers",
+    "heading": "Lilita One",
+    "body": "Nunito ExtraBold",
+    "digital": "Orbitron"
+  },
+  "assets": [
+    {
+      "path": "ui/buttons/btn-primary-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "primary",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-primary-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "primary",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-primary-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "primary",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-primary-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "primary",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-blue-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "blue",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-blue-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "blue",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-blue-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "blue",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-blue-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "blue",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-danger-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "danger",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-danger-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "danger",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-danger-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "danger",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-danger-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "danger",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-success-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "success",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-success-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "success",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-success-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "success",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-success-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "success",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-ghost-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "ghost",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-ghost-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "ghost",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-ghost-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "ghost",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-ghost-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "ghost",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-purple-normal.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "purple",
+        "normal"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-purple-hover.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "purple",
+        "hover"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-purple-pressed.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "purple",
+        "pressed"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-purple-disabled.svg",
+      "group": "Button",
+      "size": "480×144",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "purple",
+        "disabled"
+      ],
+      "note": "9-slice ready. Label/icon rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-normal.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "primary",
+        "normal"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-hover.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "primary",
+        "hover"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-pressed.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "primary",
+        "pressed"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-primary-disabled.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "primary",
+        "disabled"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-normal.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "blue",
+        "normal"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-hover.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "blue",
+        "hover"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-pressed.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "blue",
+        "pressed"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-blue-disabled.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "blue",
+        "disabled"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-normal.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "ghost",
+        "normal"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-hover.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "ghost",
+        "hover"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-pressed.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "ghost",
+        "pressed"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-ghost-disabled.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "ghost",
+        "disabled"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-normal.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "danger",
+        "normal"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-hover.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "danger",
+        "hover"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-pressed.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "danger",
+        "pressed"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/btn-round-danger-disabled.svg",
+      "group": "Button",
+      "size": "144×144",
+      "format": "SVG",
+      "tags": [
+        "icon-button",
+        "danger",
+        "disabled"
+      ],
+      "note": "Circular icon button. Icon sits centred at 72,76."
+    },
+    {
+      "path": "ui/buttons/keypad-normal.svg",
+      "group": "Button",
+      "size": "160×120",
+      "format": "SVG",
+      "tags": [
+        "keypad",
+        "normal"
+      ],
+      "note": "Numeric keypad key. Digit label rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/keypad-hover.svg",
+      "group": "Button",
+      "size": "160×120",
+      "format": "SVG",
+      "tags": [
+        "keypad",
+        "hover"
+      ],
+      "note": "Numeric keypad key. Digit label rendered at runtime."
+    },
+    {
+      "path": "ui/buttons/keypad-pressed.svg",
+      "group": "Button",
+      "size": "160×120",
+      "format": "SVG",
+      "tags": [
+        "keypad",
+        "pressed"
+      ],
+      "note": "Numeric keypad key. Digit label rendered at runtime."
+    },
+    {
+      "path": "ui/panels/panel-dark.svg",
+      "group": "Panel",
+      "size": "240×240",
+      "format": "SVG",
+      "tags": [
+        "9-slice",
+        "panel"
+      ],
+      "note": "Slices 52/52/52/52. Inner content safe area 30px."
+    },
+    {
+      "path": "ui/panels/panel-metal.svg",
+      "group": "Panel",
+      "size": "240×240",
+      "format": "SVG",
+      "tags": [
+        "9-slice",
+        "panel",
+        "metal"
+      ],
+      "note": "Slices 52/52/52/52."
+    },
+    {
+      "path": "ui/panels/panel-inset.svg",
+      "group": "Panel",
+      "size": "240×240",
+      "format": "SVG",
+      "tags": [
+        "9-slice",
+        "panel",
+        "inset"
+      ],
+      "note": "Slices 52/52/52/52."
+    },
+    {
+      "path": "ui/frames/frame-module.svg",
+      "group": "Frame",
+      "size": "560×620",
+      "format": "SVG",
+      "tags": [
+        "module",
+        "fixed"
+      ],
+      "note": "Transparent centre overlay. Header band at y=0–96."
+    },
+    {
+      "path": "ui/frames/frame-module-solved.svg",
+      "group": "Frame",
+      "size": "560×620",
+      "format": "SVG",
+      "tags": [
+        "module",
+        "solved"
+      ],
+      "note": "Green accent state for solved module."
+    },
+    {
+      "path": "ui/hud/timer-plate.svg",
+      "group": "HUD",
+      "size": "560×190",
+      "format": "SVG",
+      "tags": [
+        "timer",
+        "chrome"
+      ],
+      "note": "Render digits above plate. Safe LED area x=42–518, y=40–120."
+    },
+    {
+      "path": "ui/hud/score-plate.svg",
+      "group": "HUD",
+      "size": "360×112",
+      "format": "SVG",
+      "tags": [
+        "score"
+      ]
+    },
+    {
+      "path": "ui/hud/player-chip.svg",
+      "group": "HUD",
+      "size": "300×88",
+      "format": "SVG",
+      "tags": [
+        "player",
+        "chip"
+      ],
+      "note": "Avatar crop sits at 46,42 r=25; name/score to the right."
+    },
+    {
+      "path": "ui/hud/cipher-ribbon.svg",
+      "group": "HUD",
+      "size": "1600×120",
+      "format": "SVG",
+      "tags": [
+        "9-slice",
+        "crowd",
+        "cipher"
+      ],
+      "note": "Slices 150/150/40/40; content safe area 90–1510 × 26–88."
+    },
+    {
+      "path": "ui/hud/sabotage-banner.svg",
+      "group": "HUD",
+      "size": "900×160",
+      "format": "SVG",
+      "tags": [
+        "sabotage",
+        "banner"
+      ],
+      "note": "Text safe area 130–780 × 52–112."
+    },
+    {
+      "path": "ui/hud/leader-row.svg",
+      "group": "HUD",
+      "size": "520×72",
+      "format": "SVG",
+      "tags": [
+        "leaderboard",
+        "row"
+      ],
+      "note": "Rank plate at 8–64, name/score rendered to the right."
+    },
+    {
+      "path": "ui/hud/round-chip.svg",
+      "group": "HUD",
+      "size": "300×68",
+      "format": "SVG",
+      "tags": [
+        "round"
+      ],
+      "note": "Left flag area holds round number; right area status text."
+    },
+    {
+      "path": "ui/hud/progress-track.svg",
+      "group": "HUD",
+      "size": "900×44",
+      "format": "SVG",
+      "tags": [
+        "9-slice",
+        "progress"
+      ],
+      "note": "Slices 34/34/14/14. Fill bar is rendered at runtime for value changes."
+    },
+    {
+      "path": "ui/hud/progress-fill-green.svg",
+      "group": "HUD",
+      "size": "900×44",
+      "format": "SVG",
+      "tags": [
+        "progress",
+        "green"
+      ],
+      "note": "Crop from left based on mission progress."
+    },
+    {
+      "path": "ui/hud/progress-fill-yellow.svg",
+      "group": "HUD",
+      "size": "900×44",
+      "format": "SVG",
+      "tags": [
+        "progress",
+        "yellow"
+      ],
+      "note": "Crop from left based on mission progress."
+    },
+    {
+      "path": "ui/hud/progress-fill-red.svg",
+      "group": "HUD",
+      "size": "900×44",
+      "format": "SVG",
+      "tags": [
+        "progress",
+        "red"
+      ],
+      "note": "Crop from left based on mission progress."
+    },
+    {
+      "path": "ui/hud/strike-on.svg",
+      "group": "HUD",
+      "size": "72×72",
+      "format": "SVG",
+      "tags": [
+        "strike",
+        "alive"
+      ],
+      "note": "Available life / strike."
+    },
+    {
+      "path": "ui/hud/strike-off.svg",
+      "group": "HUD",
+      "size": "72×72",
+      "format": "SVG",
+      "tags": [
+        "strike",
+        "lost"
+      ],
+      "note": "Consumed life / strike."
+    },
+    {
+      "path": "ui/hud/tag-blue.svg",
+      "group": "HUD",
+      "size": "240×54",
+      "format": "SVG",
+      "tags": [
+        "tag"
+      ],
+      "note": "Small status tag."
+    },
+    {
+      "path": "ui/hud/tag-red.svg",
+      "group": "HUD",
+      "size": "240×54",
+      "format": "SVG",
+      "tags": [
+        "tag"
+      ],
+      "note": "Small status tag."
+    },
+    {
+      "path": "ui/frames/corner-yellow.svg",
+      "group": "Frame",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "corner",
+        "decor"
+      ],
+      "note": "Rotate/flip for four corners."
+    },
+    {
+      "path": "ui/frames/corner-blue.svg",
+      "group": "Frame",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "corner",
+        "decor"
+      ],
+      "note": "Rotate/flip for four corners."
+    },
+    {
+      "path": "icons/icon-play.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "play",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-settings.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "settings",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-sound.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "sound",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-mute.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "mute",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-music.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "music",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-info.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "info",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-back.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "back",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-home.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "home",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-replay.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "replay",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-help.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "help",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-trophy.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "trophy",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-crown.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "crown",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-leaderboard.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "leaderboard",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-team.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "team",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-timer.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "timer",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-bomb.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "bomb",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-wire.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "wire",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-hand-tap.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "hand-tap",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-hand-hold.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "hand-hold",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-hand-drag.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "hand-drag",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-hand-swipe.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "hand-swipe",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-hand-multi.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "hand-multi",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-snowflake.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "snowflake",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-smoke.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "smoke",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-glitch.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "glitch",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-alert.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "alert",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-check.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "check",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-cross.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "cross",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-star.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "star",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-bolt.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "bolt",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-spark.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "spark",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-shield.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "shield",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-key.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "key",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-lock.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "lock",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-eye.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "eye",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-arrow-right.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "arrow-right",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-arrow-up.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "arrow-up",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-plus.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "plus",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-minus.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "minus",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-pause.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "pause",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-mic.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "mic",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-reset.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "reset",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-close.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "close",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-heart.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "heart",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-flag.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "flag",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-clockw.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "clockw",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-stopwatch.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "stopwatch",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-megaphone.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "megaphone",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-map.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "map",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-csv.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "csv",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "icons/icon-wifi.svg",
+      "group": "Icon",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "icon",
+        "wifi",
+        "tintable"
+      ],
+      "note": "White line icon — tint at runtime."
+    },
+    {
+      "path": "puzzles/symbol-triangle.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "triangle",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-diamond.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "diamond",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-circle.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "circle",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-square.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "square",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-star.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "star",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-plus.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "plus",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-wave.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "wave",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "puzzles/symbol-hex.svg",
+      "group": "Puzzle Object",
+      "size": "96×96",
+      "format": "SVG",
+      "tags": [
+        "symbol",
+        "hex",
+        "tintable"
+      ],
+      "note": "Crowd Cipher symbol — tint per slot."
+    },
+    {
+      "path": "ui/gestures/gesture-tap.svg",
+      "group": "Gesture",
+      "size": "240×180",
+      "format": "SVG",
+      "tags": [
+        "gesture",
+        "tap"
+      ],
+      "note": "Onboarding / help overlay illustration."
+    },
+    {
+      "path": "ui/gestures/gesture-hold.svg",
+      "group": "Gesture",
+      "size": "240×180",
+      "format": "SVG",
+      "tags": [
+        "gesture",
+        "hold"
+      ],
+      "note": "Onboarding / help overlay illustration."
+    },
+    {
+      "path": "ui/gestures/gesture-drag.svg",
+      "group": "Gesture",
+      "size": "240×180",
+      "format": "SVG",
+      "tags": [
+        "gesture",
+        "drag"
+      ],
+      "note": "Onboarding / help overlay illustration."
+    },
+    {
+      "path": "ui/gestures/gesture-swipe.svg",
+      "group": "Gesture",
+      "size": "240×180",
+      "format": "SVG",
+      "tags": [
+        "gesture",
+        "swipe"
+      ],
+      "note": "Onboarding / help overlay illustration."
+    },
+    {
+      "path": "ui/gestures/gesture-multi.svg",
+      "group": "Gesture",
+      "size": "240×180",
+      "format": "SVG",
+      "tags": [
+        "gesture",
+        "multi"
+      ],
+      "note": "Onboarding / help overlay illustration."
+    },
+    {
+      "path": "ui/hud/touch-ring-red.svg",
+      "group": "HUD",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "touch",
+        "red"
+      ],
+      "note": "Per-player touch cursor / ripple."
+    },
+    {
+      "path": "ui/hud/touch-ring-yellow.svg",
+      "group": "HUD",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "touch",
+        "yellow"
+      ],
+      "note": "Per-player touch cursor / ripple."
+    },
+    {
+      "path": "ui/hud/touch-ring-blue.svg",
+      "group": "HUD",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "touch",
+        "blue"
+      ],
+      "note": "Per-player touch cursor / ripple."
+    },
+    {
+      "path": "ui/hud/touch-ring-purple.svg",
+      "group": "HUD",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "touch",
+        "purple"
+      ],
+      "note": "Per-player touch cursor / ripple."
+    },
+    {
+      "path": "ui/hud/touch-ring-green.svg",
+      "group": "HUD",
+      "size": "160×160",
+      "format": "SVG",
+      "tags": [
+        "touch",
+        "green"
+      ],
+      "note": "Per-player touch cursor / ripple."
+    },
+    {
+      "path": "ui/hud/hazard-strip.svg",
+      "group": "HUD",
+      "size": "256×40",
+      "format": "SVG",
+      "tags": [
+        "tile",
+        "hazard"
+      ],
+      "note": "Repeat horizontally."
+    },
+    {
+      "path": "backgrounds/bg-menu.svg",
+      "group": "Background",
+      "size": "1920×1080",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "background",
+        "menu",
+        "comic"
+      ],
+      "note": "Comic-panel ink page: halftone burst, jagged pow frame, slanted side panel. Flat and calm."
+    },
+    {
+      "path": "backgrounds/bg-game.svg",
+      "group": "Background",
+      "size": "1920×1080",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "background",
+        "game",
+        "comic"
+      ],
+      "note": "Quiet comic ink page for gameplay: edge halftones, dark centre, thin chalk frame."
+    },
+    {
+      "path": "backgrounds/overlay-halftone.svg",
+      "group": "Background",
+      "size": "1920×1080",
+      "format": "SVG",
+      "tags": [
+        "overlay",
+        "pattern"
+      ],
+      "note": "Optional blend-mode overlay."
+    },
+    {
+      "path": "characters/char-bara.svg",
+      "group": "Character",
+      "size": "600×760",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "avatar",
+        "bara"
+      ],
+      "note": "Bust portrait — Bara. Pemimpin panik yang berani. Palette #FF414D · #FFC928."
+    },
+    {
+      "path": "characters/char-nara.svg",
+      "group": "Character",
+      "size": "600×760",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "avatar",
+        "nara"
+      ],
+      "note": "Bust portrait — Nara. Otak tenang di balik hijab. Palette #FFC928 · #B55DDC."
+    },
+    {
+      "path": "characters/char-dimas.svg",
+      "group": "Character",
+      "size": "600×760",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "avatar",
+        "dimas"
+      ],
+      "note": "Bust portrait — Dimas. Analis kabel & spek teknis. Palette #2B8BFF · #FFC928."
+    },
+    {
+      "path": "characters/char-kira.svg",
+      "group": "Character",
+      "size": "600×760",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "avatar",
+        "kira"
+      ],
+      "note": "Bust portrait — Kira. Refleks cepat, mulut pedas. Palette #38D98A · #FF414D."
+    },
+    {
+      "path": "bomb/bomb-hero.svg",
+      "group": "Bomb Prop",
+      "size": "560×640",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "bomb",
+        "mascot"
+      ],
+      "note": "Hero bomb mascot for Attract / Briefing."
+    },
+    {
+      "path": "bomb/bomb-defused.svg",
+      "group": "Bomb Prop",
+      "size": "560×640",
+      "format": "SVG",
+      "tags": [
+        "bomb",
+        "defused"
+      ],
+      "note": "Happier defused state for Victory screens."
+    },
+    {
+      "path": "bomb/bomb-case.svg",
+      "group": "Bomb Prop",
+      "size": "820×620",
+      "format": "SVG (+PNG @1x/@2x)",
+      "tags": [
+        "bomb",
+        "case",
+        "briefing"
+      ],
+      "note": "Open defusal case for Mission Briefing / results."
+    },
+    {
+      "path": "puzzles/puzzle-scanner.svg",
+      "group": "Puzzle Object",
+      "size": "300×300",
+      "format": "SVG",
+      "tags": [
+        "dual-hand",
+        "scanner"
+      ],
+      "note": "Biometric pad. Fingerprint is a fixed visual; game overlays progress."
+    },
+    {
+      "path": "puzzles/lever-track.svg",
+      "group": "Puzzle Object",
+      "size": "420×110",
+      "format": "SVG",
+      "tags": [
+        "dual-hand",
+        "slider"
+      ],
+      "note": "Rail + end caps. Handle moves x=40–380."
+    },
+    {
+      "path": "puzzles/lever-handle.svg",
+      "group": "Puzzle Object",
+      "size": "110×170",
+      "format": "SVG",
+      "tags": [
+        "dual-hand",
+        "handle"
+      ],
+      "note": "Drag handle render origin at top-left; pointer anchor ~ (55,120)."
+    },
+    {
+      "path": "puzzles/button-red.svg",
+      "group": "Puzzle Object",
+      "size": "460×340",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "red"
+      ],
+      "note": "Big arcade button."
+    },
+    {
+      "path": "puzzles/button-blue.svg",
+      "group": "Puzzle Object",
+      "size": "460×340",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "blue"
+      ],
+      "note": "Big arcade button — trap variant."
+    },
+    {
+      "path": "puzzles/button-green.svg",
+      "group": "Puzzle Object",
+      "size": "460×340",
+      "format": "SVG",
+      "tags": [
+        "button",
+        "green"
+      ],
+      "note": "Big arcade button."
+    },
+    {
+      "path": "puzzles/wire-red.svg",
+      "group": "Puzzle Object",
+      "size": "110×540",
+      "format": "SVG",
+      "tags": [
+        "wire",
+        "red"
+      ],
+      "note": "Colour-blind marker: triangle + diagonal stripe."
+    },
+    {
+      "path": "puzzles/wire-blue.svg",
+      "group": "Puzzle Object",
+      "size": "110×540",
+      "format": "SVG",
+      "tags": [
+        "wire",
+        "blue"
+      ],
+      "note": "Colour-blind marker: square + straight line."
+    },
+    {
+      "path": "puzzles/wire-yellow.svg",
+      "group": "Puzzle Object",
+      "size": "110×540",
+      "format": "SVG",
+      "tags": [
+        "wire",
+        "yellow"
+      ],
+      "note": "Colour-blind marker: circle + dots."
+    },
+    {
+      "path": "puzzles/wire-green.svg",
+      "group": "Puzzle Object",
+      "size": "110×540",
+      "format": "SVG",
+      "tags": [
+        "wire",
+        "green"
+      ],
+      "note": "Colour-blind marker: X + zigzag."
+    },
+    {
+      "path": "puzzles/wire-white.svg",
+      "group": "Puzzle Object",
+      "size": "110×540",
+      "format": "SVG",
+      "tags": [
+        "wire",
+        "white"
+      ],
+      "note": "Colour-blind marker: star + checker."
+    },
+    {
+      "path": "puzzles/scissors.svg",
+      "group": "Puzzle Object",
+      "size": "190×160",
+      "format": "SVG",
+      "tags": [
+        "wire-cutter",
+        "tool"
+      ],
+      "note": "Cursor follows finger while swiping."
+    },
+    {
+      "path": "puzzles/glitch-popup.svg",
+      "group": "Puzzle Object",
+      "size": "780×300",
+      "format": "SVG",
+      "tags": [
+        "sabotage",
+        "glitch"
+      ],
+      "note": "Fake system error modal; text rendered at runtime."
+    },
+    {
+      "path": "puzzles/vu-meter.svg",
+      "group": "Puzzle Object",
+      "size": "520×320",
+      "format": "SVG",
+      "tags": [
+        "acoustic",
+        "meter"
+      ],
+      "note": "VU meter chassis; needle and fill are runtime graphics."
+    },
+    {
+      "path": "fx/fx-spark.svg",
+      "group": "FX",
+      "size": "128×128",
+      "format": "SVG",
+      "tags": [
+        "particle",
+        "spark"
+      ],
+      "note": "Touch feedback / cut spark. Additive blend."
+    },
+    {
+      "path": "fx/fx-smoke.svg",
+      "group": "FX",
+      "size": "512×512",
+      "format": "SVG",
+      "tags": [
+        "sabotage",
+        "smoke"
+      ],
+      "note": "Layer 20–30 instances for Smoke Screen."
+    },
+    {
+      "path": "fx/fx-smoke-dark.svg",
+      "group": "FX",
+      "size": "512×512",
+      "format": "SVG",
+      "tags": [
+        "sabotage",
+        "smoke"
+      ],
+      "note": "Dark smoke variant."
+    },
+    {
+      "path": "fx/fx-ice.svg",
+      "group": "FX",
+      "size": "1700×760",
+      "format": "SVG (+PNG)",
+      "tags": [
+        "sabotage",
+        "ice"
+      ],
+      "note": "Cryo Freeze overlay for work zone."
+    },
+    {
+      "path": "fx/fx-glass-crack.svg",
+      "group": "FX",
+      "size": "1920×1080",
+      "format": "SVG (+PNG)",
+      "tags": [
+        "defeat",
+        "glass"
+      ],
+      "note": "Glass shatter overlay for detonation."
+    },
+    {
+      "path": "fx/fx-explosion.svg",
+      "group": "FX",
+      "size": "1400×1400",
+      "format": "SVG (+PNG)",
+      "tags": [
+        "explosion",
+        "defeat"
+      ],
+      "note": "Comic detonation burst. Scale to 1.6× viewport."
+    },
+    {
+      "path": "fx/fx-shockwave.svg",
+      "group": "FX",
+      "size": "600×600",
+      "format": "SVG",
+      "tags": [
+        "impact",
+        "ring"
+      ],
+      "note": "Impact ring; scale/fade at runtime."
+    },
+    {
+      "path": "fx/fx-flame.svg",
+      "group": "FX",
+      "size": "280×360",
+      "format": "SVG",
+      "tags": [
+        "fire"
+      ],
+      "note": "Flame particle."
+    },
+    {
+      "path": "fx/fx-electric.svg",
+      "group": "FX",
+      "size": "520×180",
+      "format": "SVG",
+      "tags": [
+        "link",
+        "electric"
+      ],
+      "note": "Arc between two held sensors."
+    },
+    {
+      "path": "fx/fx-confetti-1.svg",
+      "group": "FX",
+      "size": "64×36",
+      "format": "SVG",
+      "tags": [
+        "confetti",
+        "victory"
+      ],
+      "note": "Confetti particle; add purple/green variants at runtime."
+    },
+    {
+      "path": "fx/fx-confetti-2.svg",
+      "group": "FX",
+      "size": "64×36",
+      "format": "SVG",
+      "tags": [
+        "confetti",
+        "victory"
+      ],
+      "note": "Confetti particle; add purple/green variants at runtime."
+    },
+    {
+      "path": "fx/fx-confetti-3.svg",
+      "group": "FX",
+      "size": "64×36",
+      "format": "SVG",
+      "tags": [
+        "confetti",
+        "victory"
+      ],
+      "note": "Confetti particle; add purple/green variants at runtime."
+    },
+    {
+      "path": "fx/fx-flash-rays.svg",
+      "group": "FX",
+      "size": "1400×1400",
+      "format": "SVG",
+      "tags": [
+        "victory",
+        "rays"
+      ],
+      "note": "Rotating victory flash behind logo."
+    },
+    {
+      "path": "fx/fx-speedlines.svg",
+      "group": "FX",
+      "size": "1600×900",
+      "format": "SVG",
+      "tags": [
+        "speed",
+        "motion"
+      ],
+      "note": "Subtle anime speed lines overlay."
+    },
+    {
+      "path": "brand/logo-mark.svg",
+      "group": "Brand",
+      "size": "640×640",
+      "format": "SVG (+PNG)",
+      "tags": [
+        "logo-mark",
+        "emblem"
+      ],
+      "note": "Icon-only brand mark. Full wordmark is PNG (see brand/logo-lockup.png)."
+    },
+    {
+      "path": "ui/caution-tape.svg",
+      "group": "HUD",
+      "size": "512×64",
+      "format": "SVG",
+      "tags": [
+        "tile",
+        "hazard"
+      ],
+      "note": "Repeat horizontally for event theming."
+    }
+  ]
+}

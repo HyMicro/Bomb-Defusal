@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+<defs><radialGradient id="smoke" cx="0.45" cy="0.35" r="0.65"><stop offset="0" stop-color="#AAB2C2" stop-opacity="0.95"/><stop offset="0.55" stop-color="#737C8E" stop-opacity="0.88"/><stop offset="1" stop-color="#3D4351" stop-opacity="0"/></radialGradient><filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+
+<g filter="url(#soft)">
+  <circle cx="196" cy="266" r="150" fill="url(#smoke)"/>
+  <circle cx="318" cy="214" r="126" fill="url(#smoke)"/>
+  <circle cx="346" cy="330" r="134" fill="url(#smoke)"/>
+  <circle cx="158" cy="356" r="104" fill="url(#smoke)"/>
+  <circle cx="256" cy="166" r="102" fill="url(#smoke)"/>
+  <ellipse cx="256" cy="400" rx="190" ry="68" fill="#4D5465" opacity=".65"/>
+</g>
+</svg>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>BOMB DEFUSAL: CHAOS EDITION — UI Mockup Sheet</title>
+<link rel="stylesheet" href="../../assets/fonts/fonts.css">
+<style>
+  :root{
+    --red:#F2555F; --yellow:#FFC93C; --blue:#4C9BFF; --purple:#B55DDC;
+    --green:#45D6A0; --navy:#0F1728; --ink:#1B1406; --cream:#FFF4DF;
+    --muted:#6B5A43; --steel:#263248; --pink:#FF4F9A; --lime:#C6F53C; --orange:#FF9A2A;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#FFF4DF;color:var(--ink);font-family:'Varela Round',sans-serif}
+  body{background:
+    radial-gradient(circle at 12% 0%, rgba(255,201,60,.34), transparent 36%),
+    radial-gradient(circle at 88% 10%, rgba(255,79,154,.14), transparent 36%),
+    radial-gradient(circle, rgba(27,20,6,.05) 1.6px, transparent 1.8px) 0 0/22px 22px,
+    #FFF4DF;
+  }
+  .sheet{width:1920px;min-height:2600px;padding:54px 64px 60px;position:relative;overflow:hidden}
+  .sheet::before{content:"";position:absolute;left:0;right:0;top:0;height:30px;background:repeating-linear-gradient(135deg,#FFC928 0 18px,#090D18 18px 36px);opacity:.95}
+  header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid rgba(27,20,6,.18);padding-bottom:24px;margin-top:22px}
+  .kicker{font-family:'Bungee',monospace;font-size:11px;letter-spacing:.28em;color:#B4232E;margin-bottom:10px}
+  h1{font-family:'Luckiest Guy',sans-serif;font-size:74px;line-height:.92;letter-spacing:2px;margin:0;color:var(--cream);-webkit-text-stroke:3px var(--ink);text-shadow:0 7px 0 var(--red),0 12px 24px rgba(120,60,30,.2)}
+  h1 em{font-style:normal;color:var(--yellow)}
+  .sub{font-size:14px;color:var(--muted);margin-top:14px;letter-spacing:.03em}
+  .meta{display:grid;gap:8px;margin-top:6px;min-width:410px}
+  .meta-row{display:flex;align-items:center;gap:12px;font-family:'Bungee',monospace;font-size:10px;color:#8A6A5A;letter-spacing:.06em}
+  .meta-row b{color:var(--ink);font-weight:700}
+  .chips{display:flex;gap:9px;margin-top:10px;flex-wrap:wrap}
+  .chip{display:flex;align-items:center;gap:7px;background:#FFF9ED;border:1.5px solid #D8C39C;border-radius:99px;padding:6px 10px;font-family:'Bungee',monospace;font-size:9px;color:#6B5A43}
+  .dot{width:12px;height:12px;border-radius:50%;box-shadow:0 0 0 1.5px #1B1406}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:38px 34px;margin-top:40px}
+  figure{margin:0;background:#FFF9ED;border:2px solid #1B1406;border-radius:20px;overflow:hidden;box-shadow:0 10px 0 #E6D2AD,0 20px 40px rgba(120,80,30,.14)}
+  .imgwrap{position:relative;aspect-ratio:16/9;overflow:hidden;background:#FFE9A8}
+  .imgwrap img{display:block;width:100%;height:100%;object-fit:cover}
+  figcaption{display:flex;align-items:center;gap:14px;padding:16px 20px;border-top:2px solid rgba(27,20,6,.12);background:linear-gradient(180deg,rgba(255,255,255,.45),transparent)}
+  .num{width:38px;height:38px;border-radius:11px;background:var(--yellow);color:#1B1406;border:1.5px solid #1B1406;display:grid;place-items:center;font-family:'Luckiest Guy',sans-serif;font-size:24px;flex:none}
+  .cap-title{font-family:'Fredoka One';font-size:20px;letter-spacing:.04em;line-height:1.1;color:var(--ink)}
+  .cap-sub{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.4}
+  .tag{margin-left:auto;font-family:'Bungee',monospace;font-size:8px;letter-spacing:.08em;color:#8A6A5A;border:1.5px solid #D8C39C;border-radius:99px;padding:6px 10px;white-space:nowrap}
+  footer{margin-top:42px;display:flex;justify-content:space-between;align-items:flex-end;border-top:2px solid rgba(27,20,6,.18);padding-top:24px}
+  .footer-brand{font-family:'Luckiest Guy',sans-serif;font-size:42px;line-height:1;color:var(--cream);-webkit-text-stroke:2px var(--ink);text-shadow:0 5px 0 var(--red)}
+  .footer-copy{font-size:10px;color:var(--muted);line-height:1.6;max-width:800px}
+  .stamp{font-family:'Bungee',monospace;font-size:9px;color:#0F5132;letter-spacing:.12em;border:1.5px solid #1B7A4A;background:#C9F7E3;border-radius:10px;padding:12px 16px;text-align:right;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <header>
+    <div>
+      <div class="kicker">PRODUCTION UI MOCKUP SHEET • V2.3 • BRIGHT COMIC PASS • PID LANDSCAPE 16:9</div>
+      <h1>BOMB DEFUSAL: <em>CHAOS EDITION</em></h1>
+      <div class="sub">Comic-arcade ice-breaking multiplayer untuk Interactive Flat Panel 1920×1080 / 4K UHD</div>
+    </div>
+    <div class="meta">
+      <div class="meta-row"><span>PLATFORM</span><b>Web HTML5 / Phaser 3</b></div>
+      <div class="meta-row"><span>PEMAIN</span><b>REN • KAI • MIRA • RIN</b></div>
+      <div class="meta-row"><span>DURASI</span><b>45–60 detik per sesi</b></div>
+      <div class="meta-row"><span>MODE</span><b>Santai • Standar • Chaos</b></div>
+      <div class="meta-row"><span>TEMA</span><b>Cream pop-art + ink slab</b></div>
+      <div class="meta-row"><span>AUDIO</span><b>Typewriter • trigger stinger • comic score</b></div>
+      <div class="chips">
+        <span class="chip"><i class="dot" style="background:#FFC93C;color:#FFC93C"></i>#FFC93C</span>
+        <span class="chip"><i class="dot" style="background:#FF9A2A;color:#FF9A2A"></i>#FF9A2A</span>
+        <span class="chip"><i class="dot" style="background:#4C9BFF;color:#4C9BFF"></i>#4C9BFF</span>
+        <span class="chip"><i class="dot" style="background:#FF4F9A;color:#FF4F9A"></i>#FF4F9A</span>
+        <span class="chip"><i class="dot" style="background:#C6F53C;color:#C6F53C"></i>#C6F53C</span>
+        <span class="chip"><i class="dot" style="background:#45D6A0;color:#45D6A0"></i>#45D6A0</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="grid">
+    <figure>
+      <div class="imgwrap"><img src="01-main-menu.png" alt="Main Menu"></div>
+      <figcaption><span class="num">1</span><div><div class="cap-title">Main Menu / Attract Mode</div><div class="cap-sub">Official logo, REN hero card, supplied comic buttons, bright pop-art page, leaderboard modal.</div></div><span class="tag">STATE 1</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="02-team-selection.png" alt="Team Selection"></div>
+      <figcaption><span class="num">2</span><div><div class="cap-title">Team Selection</div><div class="cap-sub">Cast REN, KAI, MIRA, RIN; pilih 2–4 pemain dan difficulty preset.</div></div><span class="tag">SETUP</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="09-pre-mission-story.png" alt="Pre-Mission Story"></div>
+      <figcaption><span class="num">3</span><div><div class="cap-title">Pre-Mission Story</div><div class="cap-sub">Dialog bergantian sesuai party, portrait comic, typewriter + typing SFX, dan skip.</div></div><span class="tag">STORY</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="03-mission-briefing.png" alt="Mission Briefing"></div>
+      <figcaption><span class="num">4</span><div><div class="cap-title">Mission Briefing</div><div class="cap-sub">Bomb case, modul yang diacak, roster tim, dan hitung mundur 3-2-1.</div></div><span class="tag">STATE 2</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="04-gameplay.png" alt="Gameplay"></div>
+      <figcaption><span class="num">5</span><div><div class="cap-title">Gameplay — Active Defusal</div><div class="cap-sub">3 modul kartu di atas cream page, LCD timer, strike, skor, cipher ribbon, Lempar Bom.</div></div><span class="tag">STATE 3</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="05-sabotage.png" alt="Sabotage"></div>
+      <figcaption><span class="num">6</span><div><div class="cap-title">Sabotage — Smoke Screen</div><div class="cap-sub">Gangguan fisik: gosok asap, ketuk es, hadapi gravity flip, reboot glitch.</div></div><span class="tag">EVENT</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="06-victory.png" alt="Victory"></div>
+      <figcaption><span class="num">7</span><div><div class="cap-title">Victory / Defused</div><div class="cap-sub">Konfeti, rapor misi, MVP, daily leaderboard, dan entry inisial top-5.</div></div><span class="tag">STATE 4A</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="07-defeat.png" alt="Defeat and Penalty Card"></div>
+      <figcaption><span class="num">8</span><div><div class="cap-title">Defeat + Penalty Card</div><div class="cap-sub">Ledakan, glass shatter, kartu hukuman ringan, dan ajakan main lagi.</div></div><span class="tag">STATE 4B / 5</span></figcaption>
+    </figure>
+    <figure>
+      <div class="imgwrap"><img src="08-operator-panel.png" alt="Operator Panel"></div>
+      <figcaption><span class="num">9</span><div><div class="cap-title">Operator Configuration</div><div class="cap-sub">Bright operator overlay: preset ronde, audio, branding, export CSV, reset data.</div></div><span class="tag">ADMIN</span></figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <div>
+      <div class="footer-brand">BOMB DEFUSAL</div>
+      <div class="footer-copy">Deliverable: playable Phaser 3 build • official logo & character cast • modular SVG+PNG asset pack • GDD • PRD implementation map • production & QA plan.<br>
+      All mockups are real runtime captures at 1920×1080, not painted comps. Bright cream pages, comic score + typewriter/tick SFX, 0 console errors. Fonts: Luckiest Guy, Fredoka One, Varela Round, Bungee (OFL).</div>
+    </div>
+    <div class="stamp">9 SCREENS CAPTURED<br>1920 × 1080 @ 16:9<br>READY FOR PID TOUCH</div>
+  </footer>
+</div>
+<script>
+  window.__READY = false;
+  Promise.all([...document.images].map(img => img.decode().catch(()=>{}))).then(() => {
+    document.fonts.ready.then(() => setTimeout(() => { window.__READY = true; }, 250));
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120" fill="none">
+<defs><linearGradient id="key" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B4765" stop-opacity="1"/><stop offset="0.2" stop-color="#2A3450" stop-opacity="1"/><stop offset="1" stop-color="#182036" stop-opacity="1"/></linearGradient><linearGradient id="lip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0C1120" stop-opacity="1"/><stop offset="1" stop-color="#050810" stop-opacity="1"/></linearGradient><filter id="drop" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#05070D" flood-opacity="0.55"/>
+  </filter><filter id="hg" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.1686 0.5451 1.0000 0 0 0 0 0.1686 0.5451 1.0000 0 0 0 0 0.1686 0.5451 1.0000 0 0 0 .85 0" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter></defs>
+
+  <g transform="translate(0 6)" filter="url(#drop)">
+    <rect x="6" y="16" width="148" height="96" rx="18" fill="url(#lip)" stroke="#090D18" stroke-width="5"/>
+    <rect x="6" y="6" width="148" height="96" rx="18" fill="url(#key)" stroke="#090D18" stroke-width="5"/>
+    <rect x="14" y="12" width="132" height="36" rx="12" fill="#FFFFFF" opacity=".06"/>
+    
+    <path d="M26 100 H134" stroke="#FFFFFF" stroke-width="2" opacity=".1" stroke-linecap="round"/>
+  </g>
+</svg>

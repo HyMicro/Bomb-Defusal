@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="120" viewBox="0 0 1600 120" fill="none">
+<defs><linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6C7994" stop-opacity="1"/><stop offset="0.12" stop-color="#3B4761" stop-opacity="1"/><stop offset="0.5" stop-color="#293249" stop-opacity="1"/><stop offset="0.88" stop-color="#3B4761" stop-opacity="1"/><stop offset="1" stop-color="#1A2236" stop-opacity="1"/></linearGradient><linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1A1230" stop-opacity="1"/><stop offset="0.5" stop-color="#25133A" stop-opacity="1"/><stop offset="1" stop-color="#170F2B" stop-opacity="1"/></linearGradient><filter id="purple" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="b"/>
+    <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.7098 0.3647 0.8627 0 0 0 0 0.7098 0.3647 0.8627 0 0 0 0 0.7098 0.3647 0.8627 0 0 0 .85 0" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter><pattern id="haz" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="26" height="26" fill="#090D18"/><rect width="13" height="26" fill="#FFC928"/></pattern></defs>
+
+  <rect x="6" y="8" width="1588" height="106" rx="24" fill="#05080F" opacity=".7"/>
+  <rect x="4" y="4" width="1592" height="108" rx="24" fill="url(#metal)" stroke="#090D18" stroke-width="7"/>
+  <rect x="26" y="20" width="1548" height="78" rx="14" fill="url(#screen)" stroke="#000" stroke-width="4"/>
+  <rect x="26" y="20" width="1548" height="78" rx="14" fill="none" stroke="#B55DDC" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M52 88 H420" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="3"/>
+  <rect x="18" y="30" width="18" height="48" rx="6" fill="url(#haz)"/>
+  <rect x="1564" y="30" width="18" height="48" rx="6" fill="url(#haz)"/>
+  <g opacity=".8" transform="translate(44 38)">
+    <path d="M0 22 L17 9 H44 L34 22 L44 35 H17 Z" fill="#B55DDC" opacity=".8" stroke="#090D18" stroke-width="3"/>
+    <path d="M44 22 L58 8 V36 Z" fill="#FFC928" stroke="#090D18" stroke-width="3"/>
+  </g>
+  <g opacity=".8" transform="translate(1468 38) scale(-1 1)">
+    <path d="M0 22 L17 9 H44 L34 22 L44 35 H17 Z" fill="#B55DDC" opacity=".8" stroke="#090D18" stroke-width="3"/>
+    <path d="M44 22 L58 8 V36 Z" fill="#FFC928" stroke="#090D18" stroke-width="3"/>
+  </g>
+</svg>

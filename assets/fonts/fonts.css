@@ -1,0 +1,10 @@
+@font-face { font-family: 'Bungee'; src: url('Bungee-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fredoka One'; src: url('FredokaOne-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Luckiest Guy'; src: url('LuckiestGuy-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Varela Round'; src: url('VarelaRound-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Legacy comic set retained for archive/docs. */
+@font-face { font-family: 'Bangers'; src: url('Bangers-Regular.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Lilita One'; src: url('LilitaOne-Regular.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Nunito'; src: url('Nunito-ExtraBold.woff2') format('woff2'); font-weight: 800 900; font-display: swap; }
+@font-face { font-family: 'Orbitron'; src: url('Orbitron-Bold.woff2') format('woff2'); font-weight: 700 900; font-display: swap; }

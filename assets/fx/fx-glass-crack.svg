@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<defs></defs>
+
+<g fill="none" stroke="#EAF7FF" stroke-opacity=".75" stroke-linecap="round">
+  <path d="M960 560 L820 380 L790 220 M960 560 L1100 360 L1160 180 M960 560 L760 620 L540 560 L380 620 M960 560 L1160 660 L1380 620 L1540 700 M960 560 L920 760 L1020 940 M960 560 L820 760 L700 900 M960 560 L1040 720 L1260 840" stroke-width="5"/>
+  <path d="M960 560 L880 470 L900 300 M960 560 L1040 460 L1060 280 M960 560 L840 540 L660 470 M960 560 L1080 540 L1240 460" stroke-width="2.5" opacity=".7"/>
+  <g stroke-width="2" opacity=".4">
+    <path d="M380 620 L420 700 L520 760 L540 860"/>
+    <path d="M1380 620 L1320 720 L1380 820"/>
+    <path d="M790 220 L720 180 L680 120"/>
+    <path d="M1160 180 L1220 120"/>
+    <path d="M1020 940 L980 1040 L1020 1080"/>
+  </g>
+</g>
+<g fill="#BFE9FF" opacity=".08">
+  <path d="M960 560 L820 380 L760 620 L840 760 Z"/>
+  <path d="M960 560 L1100 360 L1160 660 L1040 720 Z"/>
+  <path d="M960 560 L760 620 L540 560 L660 470 Z"/>
+</g>
+<circle cx="960" cy="560" r="38" fill="#FFFFFF" opacity=".12"/>
+<circle cx="960" cy="560" r="12" fill="#FFFFFF" opacity=".3"/>
+</svg>

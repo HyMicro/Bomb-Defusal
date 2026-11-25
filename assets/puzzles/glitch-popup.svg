@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="300" viewBox="0 0 780 300" fill="none">
+<defs><filter id="glDrop" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#05070D" flood-opacity="0.5"/>
+  </filter></defs>
+
+  <g filter="url(#glDrop)">
+    <rect x="22" y="28" width="736" height="244" rx="18" fill="#2B8BFF" opacity=".25" transform="translate(-10 4)"/>
+    <rect x="22" y="28" width="736" height="244" rx="18" fill="#FF414D" opacity=".2" transform="translate(10 0)"/>
+    <rect x="18" y="24" width="744" height="244" rx="18" fill="#F6EAD6" stroke="#090D18" stroke-width="9"/>
+    <path d="M18 56 H762 V0 H18 Z" fill="#FF414D" stroke="#090D18" stroke-width="6"/>
+    <g stroke="#090D18" stroke-width="4" opacity=".65"><path d="M18 108 H762 M18 164 H762 M18 220 H762"/></g>
+    <g opacity=".22" fill="#0A101C"><rect x="18" y="110" width="744" height="6"/><rect x="18" y="166" width="744" height="6"/><rect x="18" y="222" width="744" height="6"/></g>
+    <rect x="54" y="74" width="86" height="42" rx="8" fill="#090D18" opacity=".8"/>
+    <path d="M68 90 H114 M68 102 H98" stroke="#FFC928" stroke-width="4" opacity=".8"/>
+    <g fill="#0A101C" opacity=".55"><rect x="54" y="182" width="356" height="10" rx="5"/><rect x="54" y="204" width="280" height="10" rx="5"/></g>
+    <rect x="596" y="70" width="126" height="46" rx="9" fill="#090D18"/>
+    <path d="M644 84 L628 100 H644 L636 114 L662 92 H646 L654 84Z" fill="#FFC928"/>
+    <g transform="translate(596 180)"><rect width="126" height="42" rx="8" fill="#303A55" stroke="#090D18" stroke-width="4"/><path d="M18 21 H108" stroke="#F6EAD6" stroke-width="4" stroke-linecap="round" opacity=".5"/></g>
+    <path d="M18 268 H762" stroke="#2B8BFF" stroke-width="4" opacity=".4"/>
+  </g>
+</svg>

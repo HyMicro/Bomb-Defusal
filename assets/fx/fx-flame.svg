@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="360" viewBox="0 0 280 360" fill="none">
+<defs><radialGradient id="flame" cx="0.5" cy="0.75" r="0.7"><stop offset="0" stop-color="#FFF2A8" stop-opacity="1"/><stop offset="0.4" stop-color="#FFC928" stop-opacity="1"/><stop offset="0.72" stop-color="#FF7A2E" stop-opacity="1"/><stop offset="1" stop-color="#FF414D" stop-opacity="0.2"/></radialGradient></defs>
+
+<path d="M140 20 C200 120 250 170 230 260 C216 326 170 350 140 340 C110 350 64 326 50 260 C30 170 80 120 140 20Z" fill="url(#flame)"/>
+<path d="M140 110 C176 170 198 204 186 254 C178 290 158 308 140 304 C122 308 102 290 94 254 C82 204 104 170 140 110Z" fill="#FFE06A" opacity=".9"/>
+<path d="M140 190 C158 220 164 244 156 260 C150 274 146 278 140 276 C134 278 130 274 124 260 C116 244 122 220 140 190Z" fill="#FFFBE8"/>
+</svg>

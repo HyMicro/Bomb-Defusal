@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="40" viewBox="0 0 256 40" fill="none">
+<defs><pattern id="haz" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<rect width="40" height="40" fill="#090D18"/><rect width="20" height="40" fill="#FFC928"/></pattern></defs>
+<rect width="256" height="40" fill="url(#haz)"/><rect x="0" y="0" width="256" height="4" fill="#FFF" opacity=".12"/>
+</svg>

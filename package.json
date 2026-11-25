@@ -1,0 +1,17 @@
+{
+  "name": "bom-challenge-chaos-edition",
+  "version": "2.3.0",
+  "private": true,
+  "description": "BOMB DEFUSAL: CHAOS EDITION — multiplayer HTML5 ice-breaking arcade for large-format PID touchscreens.",
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs 8123",
+    "serve": "node serve.mjs 8123",
+    "assets": "node tools/generate-assets.mjs",
+    "exports:manifest": "node tools/build-export-manifest.mjs",
+    "kiosk": "powershell -ExecutionPolicy Bypass -File scripts/start-kiosk.ps1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

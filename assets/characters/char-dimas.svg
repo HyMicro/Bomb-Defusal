@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" fill="none">
+<defs><filter id="charShadow" x="-40%" y="-40%" width="180%" height="190%">
+    <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#05070D" flood-opacity="0.38"/>
+  </filter></defs>
+
+  <g filter="url(#charShadow)">
+    <!-- hair back -->
+    <path d="M300 92 C180 92 84 190 102 344 C112 438 150 480 174 450 C150 390 148 330 160 280 L440 280 C452 330 450 390 426 450 C450 480 488 438 498 344 C516 190 420 92 300 92Z" fill="#4A2C1D" stroke="#090D18" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+    
+  <ellipse cx="300" cy="742" rx="232" ry="20" fill="#05070D" opacity=".22"/>
+  <path d="M70 760 C82 638 162 584 246 566 L354 566 C438 584 518 638 530 760 Z" fill="#2B8BFF" stroke="#090D18" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M70 760 C82 638 162 584 246 566 L354 566 C438 584 518 638 530 760 Z" fill="none" stroke="#1453B8" stroke-width="4" opacity=".55"/>
+  <path d="M246 566 C254 622 232 680 190 760 M354 566 C346 622 368 680 410 760" stroke="#1453B8" stroke-width="5" fill="none" opacity=".55"/>
+  <path d="M246 566 C258 620 258 664 240 760 H360 C342 664 342 620 354 566 Z" fill="#FFC928" stroke="#090D18" stroke-width="6"/>
+  <path d="M246 566 L300 652 L354 566" fill="#8CC6FF" stroke="#090D18" stroke-width="6"/>
+  <path d="M262 568 L300 638 L338 568" fill="#FFC928" opacity=".9"/>
+  <circle cx="408" cy="660" r="28" fill="#F6EAD6" stroke="#090D18" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M396 660 l9 9 16-20" stroke="#090D18" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 720 C128 690 164 674 202 668 M510 720 C472 690 436 674 398 668" stroke="#8CC6FF" stroke-width="6" fill="none" opacity=".35"/>
+    
+  <path d="M244 470 H356 V548 C356 574 334 590 300 590 C266 590 244 574 244 548 Z" fill="#C88756" stroke="#090D18" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M258 505 H342 V552 C342 572 322 584 300 584 C278 584 258 572 258 552 Z" fill="#976036" opacity=".55"/>
+  <ellipse cx="300" cy="316" rx="186" ry="198" fill="#C88756" stroke="#090D18" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="118" cy="344" rx="33" ry="44" fill="#C88756" stroke="#090D18" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="482" cy="344" rx="33" ry="44" fill="#C88756" stroke="#090D18" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="134" cy="350" rx="14" ry="24" fill="#976036" opacity=".55"/>
+  <ellipse cx="466" cy="350" rx="14" ry="24" fill="#976036" opacity=".55"/>
+  <path d="M300 318 c-6 24 -14 54 -4 68 8 10 28 6 32 -4" stroke="#976036" stroke-width="7" fill="none" stroke-linecap="round" opacity=".75"/>
+    <!-- hair top -->
+    <path d="M108 300 C98 190 178 116 300 112 C414 108 500 186 492 306 C476 266 452 240 424 224 C410 190 366 164 318 172 C298 198 272 214 244 222 C210 202 178 206 152 232 C134 254 118 274 108 300Z" fill="#4A2C1D" stroke="#090D18" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M148 238 C186 190 242 162 300 158 C354 154 404 174 438 210" stroke="#7C5034" stroke-width="9" fill="none" stroke-linecap="round" opacity=".65"/>
+    <path d="M184 176 C196 150 218 140 238 138 M300 126 C330 116 366 122 386 138" stroke="#4A2C1D" stroke-width="20" stroke-linecap="round"/>
+    <!-- face -->
+    
+  
+    <ellipse cx="238" cy="328" rx="51" ry="56" fill="#FFFBF0" stroke="#090D18" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="236" cy="328" rx="24" ry="27" fill="#3A2A20"/>
+    <ellipse cx="236" cy="328" rx="11" ry="13" fill="#080B13"/>
+    <circle cx="228" cy="318" r="8" fill="#FFF" opacity=".95"/>
+    <circle cx="245" cy="337" r="4" fill="#FFF" opacity=".55"/>
+    <path d="M192 290 Q218 274 282 292" stroke="#090D18" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <ellipse cx="362" cy="328" rx="51" ry="56" fill="#FFFBF0" stroke="#090D18" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <ellipse cx="360" cy="328" rx="24" ry="27" fill="#3A2A20"/>
+    <ellipse cx="360" cy="328" rx="11" ry="13" fill="#080B13"/>
+    <circle cx="352" cy="318" r="8" fill="#FFF" opacity=".95"/>
+    <circle cx="369" cy="337" r="4" fill="#FFF" opacity=".55"/>
+    <path d="M316 290 Q342 274 406 292" stroke="#090D18" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M178 236 Q220 210 278 240" stroke="#090D18" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M322 240 Q382 212 424 246" stroke="#090D18" stroke-width="13" fill="none" stroke-linecap="round"/>
+  
+    <ellipse cx="170" cy="420" rx="38" ry="18" fill="#E8797B" opacity=".32"/><ellipse cx="430" cy="420" rx="38" ry="18" fill="#E8797B" opacity=".32"/>
+    <path d="M288 384 c10 8 26 8 36 0" stroke="#976036" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- glasses -->
+    <g>
+      <circle cx="238" cy="330" r="73" fill="#BFE4FF" opacity=".16"/>
+      <circle cx="238" cy="330" r="73" fill="none" stroke="#090D18" stroke-width="10"/>
+      <circle cx="362" cy="330" r="73" fill="#BFE4FF" opacity=".16"/>
+      <circle cx="362" cy="330" r="73" fill="none" stroke="#090D18" stroke-width="10"/>
+      <path d="M311 330 C320 318 336 318 345 330" stroke="#090D18" stroke-width="9" fill="none"/>
+      <path d="M165 324 L114 312 M435 324 L486 312" stroke="#090D18" stroke-width="9" stroke-linecap="round"/>
+      <path d="M198 298 C210 284 228 278 244 282 M322 298 C334 284 352 278 368 282" stroke="#FFF" stroke-width="5" fill="none" stroke-linecap="round" opacity=".75"/>
+      <path d="M190 354 C198 370 214 378 230 380" stroke="#8BC6FF" stroke-width="4" fill="none" opacity=".55"/>
+    </g>
+    <!-- mouth buck teeth -->
+    <path d="M234 430 C256 464 344 466 366 430 C350 456 250 456 234 430Z" fill="#4A1E24" stroke="#090D18" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M272 444 H294 V462 H272 Z M306 444 H328 V462 H306 Z" fill="#FFF8E8" stroke="#090D18" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M342 444 C352 442 358 438 362 432" stroke="#FFF8E8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M178 384 l34 6 M422 390 l-34 6" stroke="#976036" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+    <!-- headphones around neck -->
+    <path d="M188 558 C172 660 198 704 300 704 C402 704 428 660 412 558" stroke="#090D18" stroke-width="24" fill="none"/>
+    <path d="M188 558 C172 660 198 704 300 704 C402 704 428 660 412 558" stroke="#F6EAD6" stroke-width="13" fill="none"/>
+    <g><rect x="158" y="660" width="78" height="86" rx="28" fill="#FFC928" stroke="#090D18" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/><rect x="172" y="674" width="50" height="58" rx="18" fill="#B98410"/></g>
+    <g><rect x="364" y="660" width="78" height="86" rx="28" fill="#FFC928" stroke="#090D18" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/><rect x="378" y="674" width="50" height="58" rx="18" fill="#B98410"/></g>
+    <!-- hoodie details -->
+    <path d="M208 580 C250 608 350 608 392 580" stroke="#8CC6FF" stroke-width="6" fill="none" opacity=".5"/>
+    <path d="M204 680 V740 M396 680 V740" stroke="#1453B8" stroke-width="6" opacity=".6"/>
+  </g>
+</svg>

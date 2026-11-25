@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8"><title>BOM CHALLENGE! — Asset Catalog</title>
+<link rel="stylesheet" href="../../assets/fonts/fonts.css">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b0f1c;color:#f6ead6;font-family:'Nunito',sans-serif}
+header{padding:48px 5vw 24px;background:linear-gradient(120deg,#2a1d46,#111827);border-bottom:4px solid #ffc928}
+h1{font-family:'Bangers',sans-serif;font-size:64px;letter-spacing:2px;margin:0;color:#ffc928;-webkit-text-stroke:2px #090d18;text-shadow:0 6px 0 #ff414d}
+p.sub{color:#aeb9d6;max-width:850px;line-height:1.6;margin:12px 0 24px}
+nav{display:flex;flex-wrap:wrap;gap:8px}nav a{color:#0b0f1c;background:#ffc928;padding:6px 12px;border-radius:99px;font-weight:900;text-decoration:none;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+section{padding:32px 5vw 8px}h2{font-family:'Lilita One';font-size:22px;text-transform:uppercase;color:#2b8bff;letter-spacing:.08em;border-bottom:1px solid #303a55;padding-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;margin-top:18px}
+.asset{margin:0;background:#141a2e;border:1px solid #2d3852;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-height:210px}
+.asset-img{height:150px;display:grid;place-items:center;padding:14px;background:repeating-conic-gradient(#1a2134 0% 25%,#151b2c 0% 50%) 50%/24px 24px;overflow:hidden}
+.asset-img img{max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 6px 10px rgba(0,0,0,.4))}
+figcaption{padding:10px 12px;display:grid;gap:3px}
+figcaption strong{font-size:11px;color:#f6ead6;word-break:break-word;font-family:'Orbitron'}
+figcaption span{font-size:10px;color:#ffc928;font-family:'Orbitron'}
+figcaption small{font-size:10px;color:#8f9bbd;line-height:1.45}
+</style></head><body>
+<header><h1>BOM CHALLENGE! ASSET PACK</h1><p class="sub">175 modul aset SVG transparan. Katalog ini adalah QA sheet untuk melihat seluruh komponen terpisah. Palet: merah #FF414D, kuning #FFC928, biru elektrik #2B8BFF, ungu neon #B55DDC, dark navy #141A2E.</p><nav><a href="#button">Button</a><a href="#panel">Panel</a><a href="#frame">Frame</a><a href="#hud">HUD</a><a href="#icon">Icon</a><a href="#puzzle-object">Puzzle Object</a><a href="#gesture">Gesture</a><a href="#background">Background</a><a href="#character">Character</a><a href="#bomb-prop">Bomb Prop</a><a href="#fx">FX</a><a href="#brand">Brand</a></nav></header>
+<section id="button"><h2>Button</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-primary-normal.svg" alt="ui/buttons/btn-primary-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-primary-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-primary-hover.svg" alt="ui/buttons/btn-primary-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-primary-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-primary-pressed.svg" alt="ui/buttons/btn-primary-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-primary-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-primary-disabled.svg" alt="ui/buttons/btn-primary-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-primary-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-blue-normal.svg" alt="ui/buttons/btn-blue-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-blue-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-blue-hover.svg" alt="ui/buttons/btn-blue-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-blue-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-blue-pressed.svg" alt="ui/buttons/btn-blue-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-blue-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-blue-disabled.svg" alt="ui/buttons/btn-blue-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-blue-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-danger-normal.svg" alt="ui/buttons/btn-danger-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-danger-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-danger-hover.svg" alt="ui/buttons/btn-danger-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-danger-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-danger-pressed.svg" alt="ui/buttons/btn-danger-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-danger-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-danger-disabled.svg" alt="ui/buttons/btn-danger-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-danger-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-success-normal.svg" alt="ui/buttons/btn-success-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-success-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-success-hover.svg" alt="ui/buttons/btn-success-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-success-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-success-pressed.svg" alt="ui/buttons/btn-success-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-success-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-success-disabled.svg" alt="ui/buttons/btn-success-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-success-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-ghost-normal.svg" alt="ui/buttons/btn-ghost-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-ghost-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-ghost-hover.svg" alt="ui/buttons/btn-ghost-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-ghost-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-ghost-pressed.svg" alt="ui/buttons/btn-ghost-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-ghost-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-ghost-disabled.svg" alt="ui/buttons/btn-ghost-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-ghost-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-purple-normal.svg" alt="ui/buttons/btn-purple-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-purple-normal.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-purple-hover.svg" alt="ui/buttons/btn-purple-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-purple-hover.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-purple-pressed.svg" alt="ui/buttons/btn-purple-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-purple-pressed.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-purple-disabled.svg" alt="ui/buttons/btn-purple-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-purple-disabled.svg</strong><span>480×144</span><small>9-slice ready. Label/icon rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-primary-normal.svg" alt="ui/buttons/btn-round-primary-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-primary-normal.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-primary-hover.svg" alt="ui/buttons/btn-round-primary-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-primary-hover.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-primary-pressed.svg" alt="ui/buttons/btn-round-primary-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-primary-pressed.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-primary-disabled.svg" alt="ui/buttons/btn-round-primary-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-primary-disabled.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-blue-normal.svg" alt="ui/buttons/btn-round-blue-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-blue-normal.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-blue-hover.svg" alt="ui/buttons/btn-round-blue-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-blue-hover.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-blue-pressed.svg" alt="ui/buttons/btn-round-blue-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-blue-pressed.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-blue-disabled.svg" alt="ui/buttons/btn-round-blue-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-blue-disabled.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-ghost-normal.svg" alt="ui/buttons/btn-round-ghost-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-ghost-normal.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-ghost-hover.svg" alt="ui/buttons/btn-round-ghost-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-ghost-hover.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-ghost-pressed.svg" alt="ui/buttons/btn-round-ghost-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-ghost-pressed.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-ghost-disabled.svg" alt="ui/buttons/btn-round-ghost-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-ghost-disabled.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-danger-normal.svg" alt="ui/buttons/btn-round-danger-normal.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-danger-normal.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-danger-hover.svg" alt="ui/buttons/btn-round-danger-hover.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-danger-hover.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-danger-pressed.svg" alt="ui/buttons/btn-round-danger-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-danger-pressed.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/btn-round-danger-disabled.svg" alt="ui/buttons/btn-round-danger-disabled.svg" loading="lazy"></div>
+      <figcaption><strong>btn-round-danger-disabled.svg</strong><span>144×144</span><small>Circular icon button. Icon sits centred at 72,76.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/keypad-normal.svg" alt="ui/buttons/keypad-normal.svg" loading="lazy"></div>
+      <figcaption><strong>keypad-normal.svg</strong><span>160×120</span><small>Numeric keypad key. Digit label rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/keypad-hover.svg" alt="ui/buttons/keypad-hover.svg" loading="lazy"></div>
+      <figcaption><strong>keypad-hover.svg</strong><span>160×120</span><small>Numeric keypad key. Digit label rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/buttons/keypad-pressed.svg" alt="ui/buttons/keypad-pressed.svg" loading="lazy"></div>
+      <figcaption><strong>keypad-pressed.svg</strong><span>160×120</span><small>Numeric keypad key. Digit label rendered at runtime.</small></figcaption>
+    </figure></div></section>
+<section id="panel"><h2>Panel</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/panels/panel-dark.svg" alt="ui/panels/panel-dark.svg" loading="lazy"></div>
+      <figcaption><strong>panel-dark.svg</strong><span>240×240</span><small>Slices 52/52/52/52. Inner content safe area 30px.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/panels/panel-metal.svg" alt="ui/panels/panel-metal.svg" loading="lazy"></div>
+      <figcaption><strong>panel-metal.svg</strong><span>240×240</span><small>Slices 52/52/52/52.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/panels/panel-inset.svg" alt="ui/panels/panel-inset.svg" loading="lazy"></div>
+      <figcaption><strong>panel-inset.svg</strong><span>240×240</span><small>Slices 52/52/52/52.</small></figcaption>
+    </figure></div></section>
+<section id="frame"><h2>Frame</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/frames/frame-module.svg" alt="ui/frames/frame-module.svg" loading="lazy"></div>
+      <figcaption><strong>frame-module.svg</strong><span>560×620</span><small>Transparent centre overlay. Header band at y=0–96.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/frames/frame-module-solved.svg" alt="ui/frames/frame-module-solved.svg" loading="lazy"></div>
+      <figcaption><strong>frame-module-solved.svg</strong><span>560×620</span><small>Green accent state for solved module.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/frames/corner-yellow.svg" alt="ui/frames/corner-yellow.svg" loading="lazy"></div>
+      <figcaption><strong>corner-yellow.svg</strong><span>160×160</span><small>Rotate/flip for four corners.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/frames/corner-blue.svg" alt="ui/frames/corner-blue.svg" loading="lazy"></div>
+      <figcaption><strong>corner-blue.svg</strong><span>160×160</span><small>Rotate/flip for four corners.</small></figcaption>
+    </figure></div></section>
+<section id="hud"><h2>HUD</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/timer-plate.svg" alt="ui/hud/timer-plate.svg" loading="lazy"></div>
+      <figcaption><strong>timer-plate.svg</strong><span>560×190</span><small>Render digits above plate. Safe LED area x=42–518, y=40–120.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/score-plate.svg" alt="ui/hud/score-plate.svg" loading="lazy"></div>
+      <figcaption><strong>score-plate.svg</strong><span>360×112</span><small></small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/player-chip.svg" alt="ui/hud/player-chip.svg" loading="lazy"></div>
+      <figcaption><strong>player-chip.svg</strong><span>300×88</span><small>Avatar crop sits at 46,42 r=25; name/score to the right.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/cipher-ribbon.svg" alt="ui/hud/cipher-ribbon.svg" loading="lazy"></div>
+      <figcaption><strong>cipher-ribbon.svg</strong><span>1600×120</span><small>Slices 150/150/40/40; content safe area 90–1510 × 26–88.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/sabotage-banner.svg" alt="ui/hud/sabotage-banner.svg" loading="lazy"></div>
+      <figcaption><strong>sabotage-banner.svg</strong><span>900×160</span><small>Text safe area 130–780 × 52–112.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/leader-row.svg" alt="ui/hud/leader-row.svg" loading="lazy"></div>
+      <figcaption><strong>leader-row.svg</strong><span>520×72</span><small>Rank plate at 8–64, name/score rendered to the right.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/round-chip.svg" alt="ui/hud/round-chip.svg" loading="lazy"></div>
+      <figcaption><strong>round-chip.svg</strong><span>300×68</span><small>Left flag area holds round number; right area status text.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/progress-track.svg" alt="ui/hud/progress-track.svg" loading="lazy"></div>
+      <figcaption><strong>progress-track.svg</strong><span>900×44</span><small>Slices 34/34/14/14. Fill bar is rendered at runtime for value changes.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/progress-fill-green.svg" alt="ui/hud/progress-fill-green.svg" loading="lazy"></div>
+      <figcaption><strong>progress-fill-green.svg</strong><span>900×44</span><small>Crop from left based on mission progress.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/progress-fill-yellow.svg" alt="ui/hud/progress-fill-yellow.svg" loading="lazy"></div>
+      <figcaption><strong>progress-fill-yellow.svg</strong><span>900×44</span><small>Crop from left based on mission progress.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/progress-fill-red.svg" alt="ui/hud/progress-fill-red.svg" loading="lazy"></div>
+      <figcaption><strong>progress-fill-red.svg</strong><span>900×44</span><small>Crop from left based on mission progress.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/strike-on.svg" alt="ui/hud/strike-on.svg" loading="lazy"></div>
+      <figcaption><strong>strike-on.svg</strong><span>72×72</span><small>Available life / strike.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/strike-off.svg" alt="ui/hud/strike-off.svg" loading="lazy"></div>
+      <figcaption><strong>strike-off.svg</strong><span>72×72</span><small>Consumed life / strike.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/tag-blue.svg" alt="ui/hud/tag-blue.svg" loading="lazy"></div>
+      <figcaption><strong>tag-blue.svg</strong><span>240×54</span><small>Small status tag.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/tag-red.svg" alt="ui/hud/tag-red.svg" loading="lazy"></div>
+      <figcaption><strong>tag-red.svg</strong><span>240×54</span><small>Small status tag.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/touch-ring-red.svg" alt="ui/hud/touch-ring-red.svg" loading="lazy"></div>
+      <figcaption><strong>touch-ring-red.svg</strong><span>160×160</span><small>Per-player touch cursor / ripple.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/touch-ring-yellow.svg" alt="ui/hud/touch-ring-yellow.svg" loading="lazy"></div>
+      <figcaption><strong>touch-ring-yellow.svg</strong><span>160×160</span><small>Per-player touch cursor / ripple.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/touch-ring-blue.svg" alt="ui/hud/touch-ring-blue.svg" loading="lazy"></div>
+      <figcaption><strong>touch-ring-blue.svg</strong><span>160×160</span><small>Per-player touch cursor / ripple.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/touch-ring-purple.svg" alt="ui/hud/touch-ring-purple.svg" loading="lazy"></div>
+      <figcaption><strong>touch-ring-purple.svg</strong><span>160×160</span><small>Per-player touch cursor / ripple.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/touch-ring-green.svg" alt="ui/hud/touch-ring-green.svg" loading="lazy"></div>
+      <figcaption><strong>touch-ring-green.svg</strong><span>160×160</span><small>Per-player touch cursor / ripple.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/hud/hazard-strip.svg" alt="ui/hud/hazard-strip.svg" loading="lazy"></div>
+      <figcaption><strong>hazard-strip.svg</strong><span>256×40</span><small>Repeat horizontally.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/caution-tape.svg" alt="ui/caution-tape.svg" loading="lazy"></div>
+      <figcaption><strong>caution-tape.svg</strong><span>512×64</span><small>Repeat horizontally for event theming.</small></figcaption>
+    </figure></div></section>
+<section id="icon"><h2>Icon</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-play.svg" alt="icons/icon-play.svg" loading="lazy"></div>
+      <figcaption><strong>icon-play.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-settings.svg" alt="icons/icon-settings.svg" loading="lazy"></div>
+      <figcaption><strong>icon-settings.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-sound.svg" alt="icons/icon-sound.svg" loading="lazy"></div>
+      <figcaption><strong>icon-sound.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-mute.svg" alt="icons/icon-mute.svg" loading="lazy"></div>
+      <figcaption><strong>icon-mute.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-music.svg" alt="icons/icon-music.svg" loading="lazy"></div>
+      <figcaption><strong>icon-music.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-info.svg" alt="icons/icon-info.svg" loading="lazy"></div>
+      <figcaption><strong>icon-info.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-back.svg" alt="icons/icon-back.svg" loading="lazy"></div>
+      <figcaption><strong>icon-back.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-home.svg" alt="icons/icon-home.svg" loading="lazy"></div>
+      <figcaption><strong>icon-home.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-replay.svg" alt="icons/icon-replay.svg" loading="lazy"></div>
+      <figcaption><strong>icon-replay.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-help.svg" alt="icons/icon-help.svg" loading="lazy"></div>
+      <figcaption><strong>icon-help.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-trophy.svg" alt="icons/icon-trophy.svg" loading="lazy"></div>
+      <figcaption><strong>icon-trophy.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-crown.svg" alt="icons/icon-crown.svg" loading="lazy"></div>
+      <figcaption><strong>icon-crown.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-leaderboard.svg" alt="icons/icon-leaderboard.svg" loading="lazy"></div>
+      <figcaption><strong>icon-leaderboard.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-team.svg" alt="icons/icon-team.svg" loading="lazy"></div>
+      <figcaption><strong>icon-team.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-timer.svg" alt="icons/icon-timer.svg" loading="lazy"></div>
+      <figcaption><strong>icon-timer.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-bomb.svg" alt="icons/icon-bomb.svg" loading="lazy"></div>
+      <figcaption><strong>icon-bomb.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-wire.svg" alt="icons/icon-wire.svg" loading="lazy"></div>
+      <figcaption><strong>icon-wire.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-hand-tap.svg" alt="icons/icon-hand-tap.svg" loading="lazy"></div>
+      <figcaption><strong>icon-hand-tap.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-hand-hold.svg" alt="icons/icon-hand-hold.svg" loading="lazy"></div>
+      <figcaption><strong>icon-hand-hold.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-hand-drag.svg" alt="icons/icon-hand-drag.svg" loading="lazy"></div>
+      <figcaption><strong>icon-hand-drag.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-hand-swipe.svg" alt="icons/icon-hand-swipe.svg" loading="lazy"></div>
+      <figcaption><strong>icon-hand-swipe.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-hand-multi.svg" alt="icons/icon-hand-multi.svg" loading="lazy"></div>
+      <figcaption><strong>icon-hand-multi.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-snowflake.svg" alt="icons/icon-snowflake.svg" loading="lazy"></div>
+      <figcaption><strong>icon-snowflake.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-smoke.svg" alt="icons/icon-smoke.svg" loading="lazy"></div>
+      <figcaption><strong>icon-smoke.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-glitch.svg" alt="icons/icon-glitch.svg" loading="lazy"></div>
+      <figcaption><strong>icon-glitch.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-alert.svg" alt="icons/icon-alert.svg" loading="lazy"></div>
+      <figcaption><strong>icon-alert.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-check.svg" alt="icons/icon-check.svg" loading="lazy"></div>
+      <figcaption><strong>icon-check.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-cross.svg" alt="icons/icon-cross.svg" loading="lazy"></div>
+      <figcaption><strong>icon-cross.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-star.svg" alt="icons/icon-star.svg" loading="lazy"></div>
+      <figcaption><strong>icon-star.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-bolt.svg" alt="icons/icon-bolt.svg" loading="lazy"></div>
+      <figcaption><strong>icon-bolt.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-spark.svg" alt="icons/icon-spark.svg" loading="lazy"></div>
+      <figcaption><strong>icon-spark.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-shield.svg" alt="icons/icon-shield.svg" loading="lazy"></div>
+      <figcaption><strong>icon-shield.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-key.svg" alt="icons/icon-key.svg" loading="lazy"></div>
+      <figcaption><strong>icon-key.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-lock.svg" alt="icons/icon-lock.svg" loading="lazy"></div>
+      <figcaption><strong>icon-lock.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-eye.svg" alt="icons/icon-eye.svg" loading="lazy"></div>
+      <figcaption><strong>icon-eye.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-arrow-right.svg" alt="icons/icon-arrow-right.svg" loading="lazy"></div>
+      <figcaption><strong>icon-arrow-right.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-arrow-up.svg" alt="icons/icon-arrow-up.svg" loading="lazy"></div>
+      <figcaption><strong>icon-arrow-up.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-plus.svg" alt="icons/icon-plus.svg" loading="lazy"></div>
+      <figcaption><strong>icon-plus.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-minus.svg" alt="icons/icon-minus.svg" loading="lazy"></div>
+      <figcaption><strong>icon-minus.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-pause.svg" alt="icons/icon-pause.svg" loading="lazy"></div>
+      <figcaption><strong>icon-pause.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-mic.svg" alt="icons/icon-mic.svg" loading="lazy"></div>
+      <figcaption><strong>icon-mic.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-reset.svg" alt="icons/icon-reset.svg" loading="lazy"></div>
+      <figcaption><strong>icon-reset.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-close.svg" alt="icons/icon-close.svg" loading="lazy"></div>
+      <figcaption><strong>icon-close.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-heart.svg" alt="icons/icon-heart.svg" loading="lazy"></div>
+      <figcaption><strong>icon-heart.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-flag.svg" alt="icons/icon-flag.svg" loading="lazy"></div>
+      <figcaption><strong>icon-flag.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-clockw.svg" alt="icons/icon-clockw.svg" loading="lazy"></div>
+      <figcaption><strong>icon-clockw.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-stopwatch.svg" alt="icons/icon-stopwatch.svg" loading="lazy"></div>
+      <figcaption><strong>icon-stopwatch.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-megaphone.svg" alt="icons/icon-megaphone.svg" loading="lazy"></div>
+      <figcaption><strong>icon-megaphone.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-map.svg" alt="icons/icon-map.svg" loading="lazy"></div>
+      <figcaption><strong>icon-map.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-csv.svg" alt="icons/icon-csv.svg" loading="lazy"></div>
+      <figcaption><strong>icon-csv.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/icons/icon-wifi.svg" alt="icons/icon-wifi.svg" loading="lazy"></div>
+      <figcaption><strong>icon-wifi.svg</strong><span>96×96</span><small>White line icon — tint at runtime.</small></figcaption>
+    </figure></div></section>
+<section id="puzzle-object"><h2>Puzzle Object</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-triangle.svg" alt="puzzles/symbol-triangle.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-triangle.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-diamond.svg" alt="puzzles/symbol-diamond.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-diamond.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-circle.svg" alt="puzzles/symbol-circle.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-circle.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-square.svg" alt="puzzles/symbol-square.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-square.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-star.svg" alt="puzzles/symbol-star.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-star.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-plus.svg" alt="puzzles/symbol-plus.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-plus.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-wave.svg" alt="puzzles/symbol-wave.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-wave.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/symbol-hex.svg" alt="puzzles/symbol-hex.svg" loading="lazy"></div>
+      <figcaption><strong>symbol-hex.svg</strong><span>96×96</span><small>Crowd Cipher symbol — tint per slot.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/puzzle-scanner.svg" alt="puzzles/puzzle-scanner.svg" loading="lazy"></div>
+      <figcaption><strong>puzzle-scanner.svg</strong><span>300×300</span><small>Biometric pad. Fingerprint is a fixed visual; game overlays progress.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/lever-track.svg" alt="puzzles/lever-track.svg" loading="lazy"></div>
+      <figcaption><strong>lever-track.svg</strong><span>420×110</span><small>Rail + end caps. Handle moves x=40–380.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/lever-handle.svg" alt="puzzles/lever-handle.svg" loading="lazy"></div>
+      <figcaption><strong>lever-handle.svg</strong><span>110×170</span><small>Drag handle render origin at top-left; pointer anchor ~ (55,120).</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/button-red.svg" alt="puzzles/button-red.svg" loading="lazy"></div>
+      <figcaption><strong>button-red.svg</strong><span>460×340</span><small>Big arcade button.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/button-blue.svg" alt="puzzles/button-blue.svg" loading="lazy"></div>
+      <figcaption><strong>button-blue.svg</strong><span>460×340</span><small>Big arcade button — trap variant.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/button-green.svg" alt="puzzles/button-green.svg" loading="lazy"></div>
+      <figcaption><strong>button-green.svg</strong><span>460×340</span><small>Big arcade button.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/wire-red.svg" alt="puzzles/wire-red.svg" loading="lazy"></div>
+      <figcaption><strong>wire-red.svg</strong><span>110×540</span><small>Colour-blind marker: triangle + diagonal stripe.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/wire-blue.svg" alt="puzzles/wire-blue.svg" loading="lazy"></div>
+      <figcaption><strong>wire-blue.svg</strong><span>110×540</span><small>Colour-blind marker: square + straight line.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/wire-yellow.svg" alt="puzzles/wire-yellow.svg" loading="lazy"></div>
+      <figcaption><strong>wire-yellow.svg</strong><span>110×540</span><small>Colour-blind marker: circle + dots.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/wire-green.svg" alt="puzzles/wire-green.svg" loading="lazy"></div>
+      <figcaption><strong>wire-green.svg</strong><span>110×540</span><small>Colour-blind marker: X + zigzag.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/wire-white.svg" alt="puzzles/wire-white.svg" loading="lazy"></div>
+      <figcaption><strong>wire-white.svg</strong><span>110×540</span><small>Colour-blind marker: star + checker.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/scissors.svg" alt="puzzles/scissors.svg" loading="lazy"></div>
+      <figcaption><strong>scissors.svg</strong><span>190×160</span><small>Cursor follows finger while swiping.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/glitch-popup.svg" alt="puzzles/glitch-popup.svg" loading="lazy"></div>
+      <figcaption><strong>glitch-popup.svg</strong><span>780×300</span><small>Fake system error modal; text rendered at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/puzzles/vu-meter.svg" alt="puzzles/vu-meter.svg" loading="lazy"></div>
+      <figcaption><strong>vu-meter.svg</strong><span>520×320</span><small>VU meter chassis; needle and fill are runtime graphics.</small></figcaption>
+    </figure></div></section>
+<section id="gesture"><h2>Gesture</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/gestures/gesture-tap.svg" alt="ui/gestures/gesture-tap.svg" loading="lazy"></div>
+      <figcaption><strong>gesture-tap.svg</strong><span>240×180</span><small>Onboarding / help overlay illustration.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/gestures/gesture-hold.svg" alt="ui/gestures/gesture-hold.svg" loading="lazy"></div>
+      <figcaption><strong>gesture-hold.svg</strong><span>240×180</span><small>Onboarding / help overlay illustration.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/gestures/gesture-drag.svg" alt="ui/gestures/gesture-drag.svg" loading="lazy"></div>
+      <figcaption><strong>gesture-drag.svg</strong><span>240×180</span><small>Onboarding / help overlay illustration.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/gestures/gesture-swipe.svg" alt="ui/gestures/gesture-swipe.svg" loading="lazy"></div>
+      <figcaption><strong>gesture-swipe.svg</strong><span>240×180</span><small>Onboarding / help overlay illustration.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/ui/gestures/gesture-multi.svg" alt="ui/gestures/gesture-multi.svg" loading="lazy"></div>
+      <figcaption><strong>gesture-multi.svg</strong><span>240×180</span><small>Onboarding / help overlay illustration.</small></figcaption>
+    </figure></div></section>
+<section id="background"><h2>Background</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/backgrounds/bg-menu.svg" alt="backgrounds/bg-menu.svg" loading="lazy"></div>
+      <figcaption><strong>bg-menu.svg</strong><span>1920×1080</span><small>Comic-panel ink page: halftone burst, jagged pow frame, slanted side panel. Flat and calm.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/backgrounds/bg-game.svg" alt="backgrounds/bg-game.svg" loading="lazy"></div>
+      <figcaption><strong>bg-game.svg</strong><span>1920×1080</span><small>Quiet comic ink page for gameplay: edge halftones, dark centre, thin chalk frame.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/backgrounds/overlay-halftone.svg" alt="backgrounds/overlay-halftone.svg" loading="lazy"></div>
+      <figcaption><strong>overlay-halftone.svg</strong><span>1920×1080</span><small>Optional blend-mode overlay.</small></figcaption>
+    </figure></div></section>
+<section id="character"><h2>Character</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/characters/char-bara.svg" alt="characters/char-bara.svg" loading="lazy"></div>
+      <figcaption><strong>char-bara.svg</strong><span>600×760</span><small>Bust portrait — Bara. Pemimpin panik yang berani. Palette #FF414D · #FFC928.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/characters/char-nara.svg" alt="characters/char-nara.svg" loading="lazy"></div>
+      <figcaption><strong>char-nara.svg</strong><span>600×760</span><small>Bust portrait — Nara. Otak tenang di balik hijab. Palette #FFC928 · #B55DDC.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/characters/char-dimas.svg" alt="characters/char-dimas.svg" loading="lazy"></div>
+      <figcaption><strong>char-dimas.svg</strong><span>600×760</span><small>Bust portrait — Dimas. Analis kabel & spek teknis. Palette #2B8BFF · #FFC928.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/characters/char-kira.svg" alt="characters/char-kira.svg" loading="lazy"></div>
+      <figcaption><strong>char-kira.svg</strong><span>600×760</span><small>Bust portrait — Kira. Refleks cepat, mulut pedas. Palette #38D98A · #FF414D.</small></figcaption>
+    </figure></div></section>
+<section id="bomb-prop"><h2>Bomb Prop</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/bomb/bomb-hero.svg" alt="bomb/bomb-hero.svg" loading="lazy"></div>
+      <figcaption><strong>bomb-hero.svg</strong><span>560×640</span><small>Hero bomb mascot for Attract / Briefing.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/bomb/bomb-defused.svg" alt="bomb/bomb-defused.svg" loading="lazy"></div>
+      <figcaption><strong>bomb-defused.svg</strong><span>560×640</span><small>Happier defused state for Victory screens.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/bomb/bomb-case.svg" alt="bomb/bomb-case.svg" loading="lazy"></div>
+      <figcaption><strong>bomb-case.svg</strong><span>820×620</span><small>Open defusal case for Mission Briefing / results.</small></figcaption>
+    </figure></div></section>
+<section id="fx"><h2>FX</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-spark.svg" alt="fx/fx-spark.svg" loading="lazy"></div>
+      <figcaption><strong>fx-spark.svg</strong><span>128×128</span><small>Touch feedback / cut spark. Additive blend.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-smoke.svg" alt="fx/fx-smoke.svg" loading="lazy"></div>
+      <figcaption><strong>fx-smoke.svg</strong><span>512×512</span><small>Layer 20–30 instances for Smoke Screen.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-smoke-dark.svg" alt="fx/fx-smoke-dark.svg" loading="lazy"></div>
+      <figcaption><strong>fx-smoke-dark.svg</strong><span>512×512</span><small>Dark smoke variant.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-ice.svg" alt="fx/fx-ice.svg" loading="lazy"></div>
+      <figcaption><strong>fx-ice.svg</strong><span>1700×760</span><small>Cryo Freeze overlay for work zone.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-glass-crack.svg" alt="fx/fx-glass-crack.svg" loading="lazy"></div>
+      <figcaption><strong>fx-glass-crack.svg</strong><span>1920×1080</span><small>Glass shatter overlay for detonation.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-explosion.svg" alt="fx/fx-explosion.svg" loading="lazy"></div>
+      <figcaption><strong>fx-explosion.svg</strong><span>1400×1400</span><small>Comic detonation burst. Scale to 1.6× viewport.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-shockwave.svg" alt="fx/fx-shockwave.svg" loading="lazy"></div>
+      <figcaption><strong>fx-shockwave.svg</strong><span>600×600</span><small>Impact ring; scale/fade at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-flame.svg" alt="fx/fx-flame.svg" loading="lazy"></div>
+      <figcaption><strong>fx-flame.svg</strong><span>280×360</span><small>Flame particle.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-electric.svg" alt="fx/fx-electric.svg" loading="lazy"></div>
+      <figcaption><strong>fx-electric.svg</strong><span>520×180</span><small>Arc between two held sensors.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-confetti-1.svg" alt="fx/fx-confetti-1.svg" loading="lazy"></div>
+      <figcaption><strong>fx-confetti-1.svg</strong><span>64×36</span><small>Confetti particle; add purple/green variants at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-confetti-2.svg" alt="fx/fx-confetti-2.svg" loading="lazy"></div>
+      <figcaption><strong>fx-confetti-2.svg</strong><span>64×36</span><small>Confetti particle; add purple/green variants at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-confetti-3.svg" alt="fx/fx-confetti-3.svg" loading="lazy"></div>
+      <figcaption><strong>fx-confetti-3.svg</strong><span>64×36</span><small>Confetti particle; add purple/green variants at runtime.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-flash-rays.svg" alt="fx/fx-flash-rays.svg" loading="lazy"></div>
+      <figcaption><strong>fx-flash-rays.svg</strong><span>1400×1400</span><small>Rotating victory flash behind logo.</small></figcaption>
+    </figure>
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/fx/fx-speedlines.svg" alt="fx/fx-speedlines.svg" loading="lazy"></div>
+      <figcaption><strong>fx-speedlines.svg</strong><span>1600×900</span><small>Subtle anime speed lines overlay.</small></figcaption>
+    </figure></div></section>
+<section id="brand"><h2>Brand</h2><div class="grid">
+    <figure class="asset">
+      <div class="asset-img"><img src="../../assets/brand/logo-mark.svg" alt="brand/logo-mark.svg" loading="lazy"></div>
+      <figcaption><strong>logo-mark.svg</strong><span>640×640</span><small>Icon-only brand mark. Full wordmark is PNG (see brand/logo-lockup.png).</small></figcaption>
+    </figure></div></section>
+<footer style="padding:32px 5vw;color:#6f7d9e;font-size:12px">Generated 24/11/2026, 14.01.58 · Fonts: Bangers, Lilita One, Nunito ExtraBold, Orbitron (OFL).</footer>
+</body></html>
